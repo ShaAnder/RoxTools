@@ -13,7 +13,7 @@ export default function EnchantTour() {
 				target: "basics",
 				title: "Basics",
 				description:
-					"Choose your enchant type first. If you have Smithing, enter your Smithing level to highlight which locations you can craft at. Optionally enter your current Enchant Level + EXP so the calculator can estimate taps and total cost to the next level.",
+					"Choose your enchant type first. If you have Smithing, enter your Smithing level to highlight which locations you can craft at. Optionally enter your current Enchant Level and a Rough % (your estimated progress toward the next level).",
 			},
 			{
 				id: "muspe",
@@ -34,7 +34,7 @@ export default function EnchantTour() {
 				target: "results",
 				title: "Results",
 				description:
-					"Compare locations by Cost/Tap and Cost to Next Level. If you entered EXP, you’ll also see Taps Needed and estimated plant savings. Prontera shows '-' for stamina since it doesn’t follow the same stamina rules.",
+					"Compare locations by Cost/Tap, Cost to Next Level, and Taps Needed. Taps Needed uses your Rough % if provided. Prontera shows '-' for stamina since it doesn’t follow the same stamina rules.",
 			},
 		],
 		[],

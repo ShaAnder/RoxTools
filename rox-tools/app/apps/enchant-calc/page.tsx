@@ -60,8 +60,7 @@ type Row = {
 	costPerTap: number;
 	costTillNextLevel: string;
 	craftable?: boolean;
-	tapsNeeded?: string;
-	savings?: string;
+	tapsNeeded: string;
 	staminaPerTap: string;
 	totalStaminaUsage: string;
 };
@@ -114,7 +113,7 @@ export default function EnchantCalcPage() {
 	const [plantGeffen, setPlantGeffen] = useState("0");
 
 	const [currentLevel, setCurrentLevel] = useState("1");
-	const [currentExp, setCurrentExp] = useState("");
+	const [roughPercent, setRoughPercent] = useState("");
 
 	const [smithingLevel, setSmithingLevel] = useState("");
 	const [gatherPlants, setGatherPlants] = useState(false);
@@ -124,13 +123,13 @@ export default function EnchantCalcPage() {
 		setPlantAlberta("0");
 		setPlantPayon("0");
 		setPlantGeffen("0");
-		setCurrentExp("");
+		setRoughPercent("");
 		setGatherPlants(false);
 	}
 
 	const currentPlants = useMemo(() => plantNames[enchantType], [enchantType]);
 
-	const { rows, showEstimate, nextLevel } = useMemo(() => {
+	const { rows, nextLevel } = useMemo(() => {
 		const muspePrices: Record<number, number> = {
 			1: numberOrZero(muspe1),
 			2: numberOrZero(muspe2),
@@ -152,12 +151,11 @@ export default function EnchantCalcPage() {
 
 		const level = Math.min(19, Math.max(1, Number(currentLevel) || 1));
 		const computedNextLevel = Math.min(20, level + 1);
-		const exp = isProvided(currentExp)
-			? Math.max(0, Number(currentExp) || 0)
-			: 0;
 		const required = reqExp[level] ?? 0;
-		const remainingExp = Math.max(0, required - exp);
-		const shouldShowEstimate = isProvided(currentExp) && remainingExp > 0;
+
+		const pctText = roughPercent.trim();
+		const pctRaw = pctText.length > 0 ? numberOrZero(pctText) : 0;
+		const pct = Math.min(100, Math.max(0, pctRaw));
 
 		const hasSmithing = isProvided(smithingLevel);
 		const smithing = numberOrZero(smithingLevel);
@@ -172,8 +170,11 @@ export default function EnchantCalcPage() {
 			const plantsPerTap = loc.plantNum * stones;
 
 			const costPerTap = muspePerTap * muspePrice + plantsPerTap * plantPrice;
-			const tapsNeededNum = Math.ceil(remainingExp * loc.tapsPerExp);
-			const savingsNum = tapsNeededNum * plantsPerTap * plantPrice;
+			const totalTapsForLevel = Math.ceil(required * loc.tapsPerExp);
+			const tapsNeededNum = Math.max(
+				0,
+				Math.ceil(totalTapsForLevel * (1 - pct / 100)),
+			);
 			const effectiveCostPerTap = gatherPlants
 				? muspePerTap * muspePrice
 				: costPerTap;
@@ -202,26 +203,12 @@ export default function EnchantCalcPage() {
 				craftable = smithing >= smithingReq;
 			}
 
-			if (!shouldShowEstimate) {
-				return {
-					location: loc.name,
-					costPerTap,
-					costTillNextLevel,
-					craftable,
-					staminaPerTap,
-					totalStaminaUsage,
-				};
-			}
-
-			const savings = savingsNum.toFixed(2);
-
 			return {
 				location: loc.name,
 				costPerTap,
 				costTillNextLevel,
 				craftable,
 				tapsNeeded: String(tapsNeededNum),
-				savings,
 				staminaPerTap,
 				totalStaminaUsage,
 			};
@@ -229,11 +216,9 @@ export default function EnchantCalcPage() {
 
 		return {
 			rows: computedRows,
-			showEstimate: shouldShowEstimate,
 			nextLevel: computedNextLevel,
 		};
 	}, [
-		currentExp,
 		currentLevel,
 		gatherPlants,
 		muspe1,
@@ -245,6 +230,7 @@ export default function EnchantCalcPage() {
 		plantIzlude,
 		plantMorroc,
 		plantPayon,
+		roughPercent,
 		smithingLevel,
 	]);
 
@@ -318,35 +304,43 @@ export default function EnchantCalcPage() {
 							</div>
 
 							<div className="space-y-2">
-								<label
-									className="block text-sm font-medium"
-									htmlFor="currentLevel"
-								>
-									Current Enchant Level (Optional)
-								</label>
-								<div className="grid grid-cols-2 gap-3">
-									<select
-										id="currentLevel"
-										value={currentLevel}
-										onChange={(e) => setCurrentLevel(e.target.value)}
-										className="w-full rounded-lg border border-black/10 bg-white px-3 py-2 text-sm dark:border-white/15 dark:bg-black"
-									>
-										{Array.from({ length: 19 }, (_, i) => String(i + 1)).map(
-											(lvl) => (
-												<option key={lvl} value={lvl}>
-													{lvl}
-												</option>
-											),
-										)}
-									</select>
-									<input
-										type="number"
-										inputMode="decimal"
-										min={0}
-										value={currentExp}
-										onChange={(e) => setCurrentExp(e.target.value)}
-										className="w-full rounded-lg border border-black/10 bg-white px-3 py-2 text-sm dark:border-white/15 dark:bg-black"
-									/>
+								<div className="grid grid-cols-1 gap-3">
+									<label className="grid gap-1 text-sm">
+										<span className="text-zinc-700 dark:text-zinc-300">
+											Current Enchant Level
+										</span>
+										<select
+											id="currentLevel"
+											value={currentLevel}
+											onChange={(e) => setCurrentLevel(e.target.value)}
+											className="w-full rounded-lg border border-black/10 bg-white px-3 py-2 text-sm dark:border-white/15 dark:bg-black"
+										>
+											{Array.from({ length: 19 }, (_, i) => String(i + 1)).map(
+												(lvl) => (
+													<option key={lvl} value={lvl}>
+														{lvl}
+													</option>
+												),
+											)}
+										</select>
+									</label>
+									<label className="grid gap-1 text-sm">
+										<span className="text-zinc-700 dark:text-zinc-300">
+											Rough %
+										</span>
+										<input
+											id="roughPercent"
+											type="number"
+											inputMode="decimal"
+											min={0}
+											max={100}
+											step={0.1}
+											placeholder="0%"
+											value={roughPercent}
+											onChange={(e) => setRoughPercent(e.target.value)}
+											className="w-full rounded-lg border border-black/10 bg-white px-3 py-2 text-sm dark:border-white/15 dark:bg-black"
+										/>
+									</label>
 								</div>
 							</div>
 						</div>
@@ -544,6 +538,15 @@ export default function EnchantCalcPage() {
 
 											<div className="flex items-center justify-between gap-3">
 												<div className="text-zinc-700 dark:text-zinc-300">
+													Taps Needed
+												</div>
+												<div className="font-medium tabular-nums">
+													{r.tapsNeeded}
+												</div>
+											</div>
+
+											<div className="flex items-center justify-between gap-3">
+												<div className="text-zinc-700 dark:text-zinc-300">
 													Stamina / Tap
 												</div>
 												<div className="font-medium tabular-nums">
@@ -559,28 +562,6 @@ export default function EnchantCalcPage() {
 													{r.totalStaminaUsage}
 												</div>
 											</div>
-
-											{showEstimate && (
-												<>
-													<div className="flex items-center justify-between gap-3">
-														<div className="text-zinc-700 dark:text-zinc-300">
-															Taps Needed
-														</div>
-														<div className="font-medium tabular-nums">
-															{r.tapsNeeded}
-														</div>
-													</div>
-
-													<div className="flex items-center justify-between gap-3">
-														<div className="text-zinc-700 dark:text-zinc-300">
-															Savings (gather plants)
-														</div>
-														<div className="font-medium tabular-nums">
-															{fmtWholeIfNoDecimals(r.savings ?? "")}
-														</div>
-													</div>
-												</>
-											)}
 										</div>
 									</div>
 								))}
@@ -595,16 +576,9 @@ export default function EnchantCalcPage() {
 											<th className="p-3 font-medium">
 												Cost till Level {nextLevel}
 											</th>
+											<th className="p-3 font-medium">Taps Needed</th>
 											<th className="p-3 font-medium">Stamina / Tap</th>
 											<th className="p-3 font-medium">Total Stamina</th>
-											{showEstimate && (
-												<>
-													<th className="p-3 font-medium">Taps Needed</th>
-													<th className="p-3 font-medium">
-														Savings (gather plants)
-													</th>
-												</>
-											)}
 										</tr>
 									</thead>
 									<tbody>
@@ -624,16 +598,9 @@ export default function EnchantCalcPage() {
 												<td className="p-3">
 													{fmtWholeIfNoDecimals(r.costTillNextLevel)}
 												</td>
+												<td className="p-3">{r.tapsNeeded}</td>
 												<td className="p-3">{r.staminaPerTap}</td>
 												<td className="p-3">{r.totalStaminaUsage}</td>
-												{showEstimate && (
-													<>
-														<td className="p-3">{r.tapsNeeded}</td>
-														<td className="p-3">
-															{fmtWholeIfNoDecimals(r.savings ?? "")}
-														</td>
-													</>
-												)}
 											</tr>
 										))}
 									</tbody>
