@@ -1,7 +1,8 @@
 "use client";
 
 import EnchantTour from "./EnchantTour";
-import { useMemo, useState } from "react";
+import Image from "next/image";
+import { useEffect, useMemo, useState } from "react";
 
 type EnchantType = "wep" | "armor" | "acc";
 
@@ -100,6 +101,7 @@ function getSmithingReq(location: string, muspeLvl: number): number {
 export default function EnchantCalcPage() {
 	const [enchantType, setEnchantType] = useState<EnchantType>("wep");
 	const [tourNonce, setTourNonce] = useState(0);
+	const [isTableOpen, setIsTableOpen] = useState(false);
 
 	const [muspe1, setMuspe1] = useState("0");
 	const [muspe2, setMuspe2] = useState("0");
@@ -234,13 +236,87 @@ export default function EnchantCalcPage() {
 		smithingLevel,
 	]);
 
+	useEffect(() => {
+		if (!isTableOpen) return;
+		const onKeyDown = (e: KeyboardEvent) => {
+			if (e.key === "Escape") setIsTableOpen(false);
+		};
+		window.addEventListener("keydown", onKeyDown);
+		return () => window.removeEventListener("keydown", onKeyDown);
+	}, [isTableOpen]);
+
+	useEffect(() => {
+		if (!isTableOpen) return;
+		const prev = document.body.style.overflow;
+		document.body.style.overflow = "hidden";
+		return () => {
+			document.body.style.overflow = prev;
+		};
+	}, [isTableOpen]);
+
 	return (
 		<div className="flex h-full flex-col gap-4 md:overflow-hidden">
 			<EnchantTour key={tourNonce} />
+
+			{isTableOpen && (
+				<div
+					className="fixed inset-0 z-50"
+					role="dialog"
+					aria-modal="true"
+					aria-label="Enchantment table"
+					onClick={() => setIsTableOpen(false)}
+				>
+					<div className="absolute inset-0 bg-black/40" />
+					<div className="absolute inset-0 flex items-center justify-center p-4">
+						<div
+							className="w-full max-w-5xl overflow-hidden rounded-xl border border-black/10 bg-white shadow-xl dark:border-white/15 dark:bg-black"
+							onClick={(e) => e.stopPropagation()}
+						>
+							<div className="flex items-center justify-between gap-3 border-b border-black/10 p-3 dark:border-white/15">
+								<div className="text-sm font-semibold tracking-tight">
+									Enchantment Table for Rox: Global
+								</div>
+								<button
+									type="button"
+									className="rounded-lg border bg-zinc-50 px-3 py-2 text-sm font-medium hover:bg-zinc-100 dark:border-white/15 dark:bg-white/5 dark:hover:bg-white/10"
+									onClick={() => setIsTableOpen(false)}
+								>
+									Close
+								</button>
+							</div>
+
+							<div className="p-3">
+								<Image
+									src="/enchant-table.png"
+									alt="Enchantment table"
+									width={1600}
+									height={1200}
+									sizes="100vw"
+									className="h-auto max-h-[calc(100vh-10rem)] w-full rounded-lg object-contain"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			)}
+
 			<div className="flex items-start justify-between gap-3">
-				<h1 className="text-2xl font-semibold tracking-tight">
-					ROX Global Enchantment Cost Calculator
-				</h1>
+				<div className="min-w-0">
+					<h1 className="text-2xl font-semibold tracking-tight">
+						ROX Global Enchantment Cost Calculator
+					</h1>
+					<div className="mt-1 text-xs text-zinc-600 dark:text-zinc-400">
+						All numbers and math are based off of
+						<button
+							type="button"
+							className="font-semibold text-zinc-900 underline decoration-2 underline-offset-2 dark:text-yellow-500 pl-1 pr-1"
+							onClick={() => setIsTableOpen(true)}
+						>
+							THIS
+						</button>
+						table.
+					</div>
+				</div>
 				<button
 					type="button"
 					className="shrink-0 rounded-lg border border-black/10 bg-zinc-50 px-3 py-2 text-sm font-medium hover:bg-zinc-100 dark:border-white/15 dark:bg-white/5 dark:hover:bg-white/10"
@@ -501,8 +577,14 @@ export default function EnchantCalcPage() {
 					<div className="overflow-hidden rounded-xl border border-black/10 bg-white dark:border-white/15 dark:bg-black">
 						<div className="flex flex-col">
 							<div className="border-b border-black/10 p-4 dark:border-white/15">
-								<div className="text-base font-semibold tracking-tight">
-									Results
+								<div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
+									<div className="text-base font-semibold tracking-tight">
+										Results
+									</div>
+									<div className="text-xs text-zinc-600 dark:text-zinc-400">
+										Taps assumes you are using 2 stones / 30 muspellium eg 400
+										taps in izlude = 800 stones
+									</div>
 								</div>
 							</div>
 
