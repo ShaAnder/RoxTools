@@ -10,6 +10,9 @@ type NavItem = {
 
 const navItems: NavItem[] = [
 	{ href: "/apps/enchant-calc", label: "Enchant Calculator" },
+	{ href: "/apps/monster-list-calc", label: "Monster List" },
+	{ href: "/docs/about", label: "About" },
+	{ href: "/docs/support", label: "Support" },
 ];
 
 export default function ResponsiveNav() {
@@ -27,10 +30,7 @@ export default function ResponsiveNav() {
 	return (
 		<header className="border-b border-black/10 bg-white dark:border-white/15 dark:bg-black">
 			<div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 md:px-6">
-				<Link
-					href="/apps/enchant-calc"
-					className="text-base font-semibold tracking-tight"
-				>
+				<Link href="/" className="text-base font-semibold tracking-tight">
 					Rox Tools
 				</Link>
 

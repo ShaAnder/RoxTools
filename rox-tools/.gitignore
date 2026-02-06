@@ -42,3 +42,6 @@ next-env.d.ts
 
 # local notes / scratch
 updates.md
+
+.vercel
+.env*.local

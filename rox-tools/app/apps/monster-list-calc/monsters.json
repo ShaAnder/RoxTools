@@ -1,0 +1,8869 @@
+[
+  {
+    "name": "poring",
+    "level": 1.0,
+    "location": "prontera south gate",
+    "image": null,
+    "stats": {
+      "hp": 118.0,
+      "atk": 14.0,
+      "pDef": 6.0,
+      "mDef": 8.0,
+      "hit": 1.0,
+      "dodge": 1.0,
+      "crit": 0.2
+    },
+    "statsDetailed": {
+      "maxHp": 118.0,
+      "pDefPct": 1.2,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.2,
+      "fleeFinal": 0.0,
+      "pAtk": 14.0,
+      "mAtk": 8.0,
+      "pPenPct": 0.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 0.8,
+      "mPenFinal": 0.0,
+      "critPct": 0.2,
+      "critFinal": 0.0,
+      "hitPct": 0.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 32.0,
+        "job": 32.0
+      },
+      "odin": {
+        "base": 192,
+        "job": 192
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.0011,
+        "type": "headgear",
+        "effect": "p.atk +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "fabre",
+    "level": 2.0,
+    "location": "prontera south gate",
+    "image": null,
+    "stats": {
+      "hp": 65.0,
+      "atk": 5.0,
+      "pDef": 7.0,
+      "mDef": 7.0,
+      "hit": 1.0,
+      "dodge": 1.0,
+      "crit": 0.2
+    },
+    "statsDetailed": {
+      "maxHp": 65.0,
+      "pDefPct": 1.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.2,
+      "fleeFinal": 0.0,
+      "pAtk": 5.0,
+      "mAtk": 9.0,
+      "pPenPct": 0.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 0.6,
+      "mPenFinal": 0.0,
+      "critPct": 0.2,
+      "critFinal": 0.0,
+      "hitPct": 0.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 17.0,
+        "job": 17.0
+      },
+      "odin": {
+        "base": 102,
+        "job": 102
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 9.0,
+      "card": {
+        "chancePct": 0.00056,
+        "type": "weapon",
+        "effect": "aspd +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "pupa",
+    "level": 3.0,
+    "location": "prontera south gate",
+    "image": null,
+    "stats": {
+      "hp": 72.0,
+      "atk": 0.0,
+      "pDef": 8.0,
+      "mDef": 8.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 72.0,
+      "pDefPct": 1.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 0.0,
+      "mAtk": 0.0,
+      "pPenPct": 0.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.0,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 18.0,
+        "job": 18.0
+      },
+      "odin": {
+        "base": 108,
+        "job": 108
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 9.0,
+      "card": {
+        "chancePct": 0.00058,
+        "type": "cloak",
+        "effect": "max hp +1200"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "lunatic",
+    "level": 4.0,
+    "location": "prontera south gate",
+    "image": null,
+    "stats": {
+      "hp": 80.0,
+      "atk": 9.0,
+      "pDef": 10.0,
+      "mDef": 6.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 80.0,
+      "pDefPct": 2.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.2,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 9.0,
+      "mAtk": 6.0,
+      "pPenPct": 0.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.0,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 19.0,
+        "job": 19.0
+      },
+      "odin": {
+        "base": 114,
+        "job": 114
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "neutral"
+    },
+    "lootPool": {
+      "zeny": 9.0,
+      "card": {
+        "chancePct": 0.0006,
+        "type": "headgear",
+        "effect": "m.atk +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "pecopeco egg",
+    "level": 5.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 88.0,
+      "atk": 0.0,
+      "pDef": 8.0,
+      "mDef": 8.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 88.0,
+      "pDefPct": 1.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 0.0,
+      "mAtk": 0.0,
+      "pPenPct": 1.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 0.6,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 20.0,
+        "job": 20.0
+      },
+      "odin": {
+        "base": 120,
+        "job": 120
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "formless",
+      "element": "neutral"
+    },
+    "lootPool": {
+      "zeny": 9.0,
+      "card": {
+        "chancePct": 0.00064,
+        "type": "weapon",
+        "effect": "haste +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "picky",
+    "level": 6.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 96.0,
+      "atk": 7.0,
+      "pDef": 10.0,
+      "mDef": 7.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 96.0,
+      "pDefPct": 2.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 7.0,
+      "mAtk": 4.0,
+      "pPenPct": 0.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.0,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 21.0,
+        "job": 21.0
+      },
+      "odin": {
+        "base": 126,
+        "job": 126
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 9.0,
+      "card": {
+        "chancePct": 0.00066,
+        "type": "clothes",
+        "effect": "max hp +1200"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "drops",
+    "level": 7.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 211.0,
+      "atk": 10.0,
+      "pDef": 11.0,
+      "mDef": 7.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 211.0,
+      "pDefPct": 2.2,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 10.0,
+      "mAtk": 17.0,
+      "pPenPct": 1.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 0.8,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 33.0,
+        "job": 55.0
+      },
+      "odin": {
+        "base": 198,
+        "job": 330
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.00136,
+        "type": "headgear",
+        "effect": "p.pen +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "condor",
+    "level": 8.0,
+    "location": "prontera south gate",
+    "image": null,
+    "stats": {
+      "hp": 230.0,
+      "atk": 9.0,
+      "pDef": 11.0,
+      "mDef": 7.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 230.0,
+      "pDefPct": 2.2,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 9.0,
+      "mAtk": 15.0,
+      "pPenPct": 1.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 0.8,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 46.0,
+        "job": 46.0
+      },
+      "odin": {
+        "base": 276,
+        "job": 276
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.00142,
+        "type": "cloak",
+        "effect": "p.dmg red +30"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "picky (shell)",
+    "level": 9.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 126.0,
+      "atk": 6.0,
+      "pDef": 10.0,
+      "mDef": 10.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 126.0,
+      "pDefPct": 2.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 2.0,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 6.0,
+      "mAtk": 9.0,
+      "pPenPct": 1.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 0.8,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 24.0,
+        "job": 24.0
+      },
+      "odin": {
+        "base": 144,
+        "job": 144
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 9.0,
+      "card": {
+        "chancePct": 0.00074,
+        "type": "clothes",
+        "effect": "p.def +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "willow",
+    "level": 10.0,
+    "location": "payon south",
+    "image": null,
+    "stats": {
+      "hp": 273.0,
+      "atk": 26.0,
+      "pDef": 10.0,
+      "mDef": 10.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 273.0,
+      "pDefPct": 2.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 2.0,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 26.0,
+      "mAtk": 16.0,
+      "pPenPct": 0.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.2,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 50.0,
+        "job": 50.0
+      },
+      "odin": {
+        "base": 300,
+        "job": 300
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 27.0,
+      "card": {
+        "chancePct": 0.00154,
+        "type": "headgear",
+        "effect": "m.pen +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "rocker",
+    "level": 11.0,
+    "location": "prontera west gate",
+    "image": null,
+    "stats": {
+      "hp": 338.0,
+      "atk": 35.0,
+      "pDef": 14.0,
+      "mDef": 9.0,
+      "hit": 2.0,
+      "dodge": 2.0,
+      "crit": 0.4
+    },
+    "statsDetailed": {
+      "maxHp": 338.0,
+      "pDefPct": 2.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 1.8,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.4,
+      "fleeFinal": 0.0,
+      "pAtk": 35.0,
+      "mAtk": 21.0,
+      "pPenPct": 1.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.4,
+      "mPenFinal": 0.0,
+      "critPct": 0.4,
+      "critFinal": 0.0,
+      "hitPct": 0.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 78.0,
+        "job": 26.0
+      },
+      "odin": {
+        "base": 468,
+        "job": 156
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 27.0,
+      "card": {
+        "chancePct": 0.0016,
+        "type": "clothes",
+        "effect": "max hp +4800"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "chonchon",
+    "level": 12.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 204.0,
+      "atk": 10.0,
+      "pDef": 13.0,
+      "mDef": 13.0,
+      "hit": 3.0,
+      "dodge": 3.0,
+      "crit": 0.6
+    },
+    "statsDetailed": {
+      "maxHp": 204.0,
+      "pDefPct": 2.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 2.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.6,
+      "fleeFinal": 0.0,
+      "pAtk": 10.0,
+      "mAtk": 16.0,
+      "pPenPct": 1.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.0,
+      "mPenFinal": 0.0,
+      "critPct": 0.6,
+      "critFinal": 0.0,
+      "hitPct": 0.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 41.0,
+        "job": 14.0
+      },
+      "odin": {
+        "base": 246,
+        "job": 84
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 13.0,
+      "card": {
+        "chancePct": 0.00082,
+        "type": "shoes",
+        "effect": "max hp +1200"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "thief bug egg",
+    "level": 13.0,
+    "location": "capital sewer 1f",
+    "image": null,
+    "stats": {
+      "hp": 242.0,
+      "atk": 0.0,
+      "pDef": 12.0,
+      "mDef": 18.0,
+      "hit": 3.0,
+      "dodge": 3.0,
+      "crit": 0.6
+    },
+    "statsDetailed": {
+      "maxHp": 242.0,
+      "pDefPct": 2.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 3.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.6,
+      "fleeFinal": 0.0,
+      "pAtk": 0.0,
+      "mAtk": 0.0,
+      "pPenPct": 1.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.2,
+      "mPenFinal": 0.0,
+      "critPct": 0.6,
+      "critFinal": 0.0,
+      "hitPct": 0.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 28.0,
+        "job": 28.0
+      },
+      "odin": {
+        "base": 168,
+        "job": 168
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 13.0,
+      "card": {
+        "chancePct": 0.00086,
+        "type": "accessory",
+        "effect": "aspd +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "mandragora",
+    "level": 14.0,
+    "location": "prontera west gate",
+    "image": null,
+    "stats": {
+      "hp": 567.0,
+      "atk": 33.0,
+      "pDef": 20.0,
+      "mDef": 14.0,
+      "hit": 3.0,
+      "dodge": 3.0,
+      "crit": 0.6
+    },
+    "statsDetailed": {
+      "maxHp": 567.0,
+      "pDefPct": 4.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 2.8,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.6,
+      "fleeFinal": 0.0,
+      "pAtk": 33.0,
+      "mAtk": 55.0,
+      "pPenPct": 2.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.4,
+      "mPenFinal": 0.0,
+      "critPct": 0.6,
+      "critFinal": 0.0,
+      "hitPct": 0.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 44.0,
+        "job": 73.0
+      },
+      "odin": {
+        "base": 264,
+        "job": 438
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 27.0,
+      "card": {
+        "chancePct": 0.00178,
+        "type": "headgear",
+        "effect": "m.dmg bonus +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "thief bug",
+    "level": 15.0,
+    "location": "capital sewer 1f",
+    "image": null,
+    "stats": {
+      "hp": 328.0,
+      "atk": 31.0,
+      "pDef": 19.0,
+      "mDef": 19.0,
+      "hit": 4.0,
+      "dodge": 4.0,
+      "crit": 0.8
+    },
+    "statsDetailed": {
+      "maxHp": 328.0,
+      "pDefPct": 3.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 3.8,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.8,
+      "fleeFinal": 0.0,
+      "pAtk": 31.0,
+      "mAtk": 18.0,
+      "pPenPct": 1.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 2.2,
+      "mPenFinal": 0.0,
+      "critPct": 0.8,
+      "critFinal": 0.0,
+      "hitPct": 0.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 23.0,
+        "job": 38.0
+      },
+      "odin": {
+        "base": 138,
+        "job": 228
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "neutral"
+    },
+    "lootPool": {
+      "zeny": 13.0,
+      "card": {
+        "chancePct": 0.00092,
+        "type": "cloak",
+        "effect": "m.dmg red +30"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "familiar",
+    "level": 17.0,
+    "location": "capital sewer 1f",
+    "image": null,
+    "stats": {
+      "hp": 426.0,
+      "atk": 23.0,
+      "pDef": 27.0,
+      "mDef": 18.0,
+      "hit": 4.0,
+      "dodge": 4.0,
+      "crit": 0.8
+    },
+    "statsDetailed": {
+      "maxHp": 426.0,
+      "pDefPct": 5.2,
+      "pDefFinal": 0.0,
+      "mDefPct": 3.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 0.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 0.8,
+      "fleeFinal": 0.0,
+      "pAtk": 23.0,
+      "mAtk": 39.0,
+      "pPenPct": 2.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 1.8,
+      "mPenFinal": 0.0,
+      "critPct": 0.8,
+      "critFinal": 0.0,
+      "hitPct": 0.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 32.0,
+        "job": 32.0
+      },
+      "odin": {
+        "base": 192,
+        "job": 192
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 13.0,
+      "card": {
+        "chancePct": 0.00098,
+        "type": "weapon",
+        "effect": "m.atk +30\nm.pen +30"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "baby desert wolf",
+    "level": 18.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 481.0,
+      "atk": 33.0,
+      "pDef": 29.0,
+      "mDef": 19.0,
+      "hit": 5.0,
+      "dodge": 5.0,
+      "crit": 1.0
+    },
+    "statsDetailed": {
+      "maxHp": 481.0,
+      "pDefPct": 5.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 3.8,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.0,
+      "fleeFinal": 0.0,
+      "pAtk": 33.0,
+      "mAtk": 54.0,
+      "pPenPct": 2.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 2.0,
+      "mPenFinal": 0.0,
+      "critPct": 1.0,
+      "critFinal": 0.0,
+      "hitPct": 1.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 33.0,
+        "job": 33.0
+      },
+      "odin": {
+        "base": 198,
+        "job": 198
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 13.0,
+      "card": {
+        "chancePct": 0.00102,
+        "type": "shoes",
+        "effect": "mdef +30\nm.dmg red +30"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "female thief bug",
+    "level": 19.0,
+    "location": "capital sewer 1f",
+    "image": null,
+    "stats": {
+      "hp": 1077.0,
+      "atk": 56.0,
+      "pDef": 26.0,
+      "mDef": 26.0,
+      "hit": 5.0,
+      "dodge": 5.0,
+      "crit": 1.0
+    },
+    "statsDetailed": {
+      "maxHp": 1077.0,
+      "pDefPct": 5.1,
+      "pDefFinal": 0.0,
+      "mDefPct": 5.1,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.0,
+      "fleeFinal": 0.0,
+      "pAtk": 56.0,
+      "mAtk": 34.0,
+      "pPenPct": 2.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 3.0,
+      "mPenFinal": 0.0,
+      "critPct": 1.0,
+      "critFinal": 0.0,
+      "hitPct": 1.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 68.0,
+        "job": 68.0
+      },
+      "odin": {
+        "base": 408,
+        "job": 408
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 27.0,
+      "card": {
+        "chancePct": 0.0021,
+        "type": "weapon",
+        "effect": "crit +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "poporing",
+    "level": 20.0,
+    "location": "payon south",
+    "image": null,
+    "stats": {
+      "hp": 1201.0,
+      "atk": 104.0,
+      "pDef": 33.0,
+      "mDef": 22.0,
+      "hit": 6.0,
+      "dodge": 6.0,
+      "crit": 1.2
+    },
+    "statsDetailed": {
+      "maxHp": 1201.0,
+      "pDefPct": 5.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 4.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.2,
+      "fleeFinal": 0.0,
+      "pAtk": 104.0,
+      "mAtk": 63.0,
+      "pPenPct": 2.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 3.4,
+      "mPenFinal": 0.0,
+      "critPct": 1.2,
+      "critFinal": 0.0,
+      "hitPct": 1.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 70.0,
+        "job": 70.0
+      },
+      "odin": {
+        "base": 420,
+        "job": 420
+      }
+    },
+    "burn": {
+      "odin": "base",
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 37.0,
+      "card": {
+        "chancePct": 0.00216,
+        "type": "accessory",
+        "effect": "m.pen +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "plankton",
+    "level": 21.0,
+    "location": "capital sewer 1f",
+    "image": null,
+    "stats": {
+      "hp": 674.0,
+      "atk": 62.0,
+      "pDef": 24.0,
+      "mDef": 36.0,
+      "hit": 6.0,
+      "dodge": 6.0,
+      "crit": 1.2
+    },
+    "statsDetailed": {
+      "maxHp": 674.0,
+      "pDefPct": 4.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 6.1,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.2,
+      "fleeFinal": 0.0,
+      "pAtk": 62.0,
+      "mAtk": 103.0,
+      "pPenPct": 3.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 2.4,
+      "mPenFinal": 0.0,
+      "critPct": 1.2,
+      "critFinal": 0.0,
+      "hitPct": 1.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 45.0,
+        "job": 27.0
+      },
+      "odin": {
+        "base": 270,
+        "job": 162
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "plant",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.00112,
+        "type": "weapon",
+        "effect": "m.atk +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "hornet",
+    "level": 22.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 752.0,
+      "atk": 66.0,
+      "pDef": 38.0,
+      "mDef": 25.0,
+      "hit": 6.0,
+      "dodge": 6.0,
+      "crit": 1.2
+    },
+    "statsDetailed": {
+      "maxHp": 752.0,
+      "pDefPct": 6.3,
+      "pDefFinal": 0.0,
+      "mDefPct": 5.0,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.2,
+      "fleeFinal": 0.0,
+      "pAtk": 66.0,
+      "mAtk": 40.0,
+      "pPenPct": 2.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 3.8,
+      "mPenFinal": 0.0,
+      "critPct": 1.2,
+      "critFinal": 0.0,
+      "hitPct": 1.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 37.0,
+        "job": 37.0
+      },
+      "odin": {
+        "base": 222,
+        "job": 222
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.00114,
+        "type": "weapon",
+        "effect": "p.atk +30\np.dmg bonus +30"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "tarou",
+    "level": 23.0,
+    "location": "capital sewer 1f",
+    "image": null,
+    "stats": {
+      "hp": 853.0,
+      "atk": 101.0,
+      "pDef": 35.0,
+      "mDef": 35.0,
+      "hit": 7.0,
+      "dodge": 7.0,
+      "crit": 1.4
+    },
+    "statsDetailed": {
+      "maxHp": 853.0,
+      "pDefPct": 6.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 6.0,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.4,
+      "fleeFinal": 0.0,
+      "pAtk": 101.0,
+      "mAtk": 60.0,
+      "pPenPct": 2.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 4.2,
+      "mPenFinal": 0.0,
+      "critPct": 1.4,
+      "critFinal": 0.0,
+      "hitPct": 1.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 29.0,
+        "job": 48.0
+      },
+      "odin": {
+        "base": 174,
+        "job": 288
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.00118,
+        "type": "accessory",
+        "effect": "haste +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "ambernite",
+    "level": 24.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 2934.0,
+      "atk": 243.0,
+      "pDef": 31.0,
+      "mDef": 46.0,
+      "hit": 8.0,
+      "dodge": 8.0,
+      "crit": 1.6
+    },
+    "statsDetailed": {
+      "maxHp": 2934.0,
+      "pDefPct": 5.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 7.1,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.6,
+      "fleeFinal": 0.0,
+      "pAtk": 243.0,
+      "mAtk": 404.0,
+      "pPenPct": 4.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 3.0,
+      "mPenFinal": 0.0,
+      "critPct": 1.6,
+      "critFinal": 0.0,
+      "hitPct": 1.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 176.0,
+        "job": 59.0
+      },
+      "odin": {
+        "base": 1056,
+        "job": 354
+      }
+    },
+    "burn": {
+      "odin": "base",
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "insect",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 55.0,
+      "card": {
+        "chancePct": 0.00364,
+        "type": "weapon",
+        "effect": "p.atk +30\np.pen +30"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "male thief bug",
+    "level": 25.0,
+    "location": "capital sewer 2f",
+    "image": null,
+    "stats": {
+      "hp": 2224.0,
+      "atk": 66.0,
+      "pDef": 33.0,
+      "mDef": 50.0,
+      "hit": 8.0,
+      "dodge": 8.0,
+      "crit": 1.6
+    },
+    "statsDetailed": {
+      "maxHp": 2224.0,
+      "pDefPct": 5.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 7.5,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.6,
+      "fleeFinal": 0.0,
+      "pAtk": 66.0,
+      "mAtk": 110.0,
+      "pPenPct": 5.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 3.4,
+      "mPenFinal": 0.0,
+      "critPct": 1.6,
+      "critFinal": 0.0,
+      "hitPct": 1.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 60.0,
+        "job": 100.0
+      },
+      "odin": {
+        "base": 360,
+        "job": 600
+      }
+    },
+    "burn": {
+      "odin": "job",
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 37.0,
+      "card": {
+        "chancePct": 0.0025,
+        "type": "shoes",
+        "effect": "p.def +30\np.dmg red +30"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "spore",
+    "level": 26.0,
+    "location": "payon south",
+    "image": null,
+    "stats": {
+      "hp": 2509.0,
+      "atk": 233.0,
+      "pDef": 54.0,
+      "mDef": 36.0,
+      "hit": 9.0,
+      "dodge": 9.0,
+      "crit": 1.8
+    },
+    "statsDetailed": {
+      "maxHp": 2509.0,
+      "pDefPct": 7.9,
+      "pDefFinal": 0.0,
+      "mDefPct": 6.1,
+      "mDefFinal": 0.0,
+      "antiCritPct": 1.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 1.8,
+      "fleeFinal": 0.0,
+      "pAtk": 233.0,
+      "mAtk": 140.0,
+      "pPenPct": 3.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.2,
+      "mPenFinal": 0.0,
+      "critPct": 1.8,
+      "critFinal": 0.0,
+      "hitPct": 1.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 62.0,
+        "job": 103.0
+      },
+      "odin": {
+        "base": 372,
+        "job": 618
+      }
+    },
+    "burn": {
+      "odin": "job",
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 37.0,
+      "card": {
+        "chancePct": 0.00258,
+        "type": "accessory",
+        "effect": "p.pen +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "creamy",
+    "level": 27.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 1406.0,
+      "atk": 63.0,
+      "pDef": 49.0,
+      "mDef": 49.0,
+      "hit": 10.0,
+      "dodge": 10.0,
+      "crit": 2.0
+    },
+    "statsDetailed": {
+      "maxHp": 1406.0,
+      "pDefPct": 7.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 7.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 2.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 2.0,
+      "fleeFinal": 0.0,
+      "pAtk": 63.0,
+      "mAtk": 105.0,
+      "pPenPct": 5.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 4.0,
+      "mPenFinal": 0.0,
+      "critPct": 2.0,
+      "critFinal": 0.0,
+      "hitPct": 2.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 63.0,
+        "job": 21.0
+      },
+      "odin": {
+        "base": 378,
+        "job": 126
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.00132,
+        "type": "accessory",
+        "effect": "p.dmg bonus +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "poison spore",
+    "level": 28.0,
+    "location": "capital sewer 2f",
+    "image": null,
+    "stats": {
+      "hp": 3132.0,
+      "atk": 255.0,
+      "pDef": 42.0,
+      "mDef": 63.0,
+      "hit": 10.0,
+      "dodge": 10.0,
+      "crit": 2.0
+    },
+    "statsDetailed": {
+      "maxHp": 3132.0,
+      "pDefPct": 6.7,
+      "pDefFinal": 0.0,
+      "mDefPct": 8.8,
+      "mDefFinal": 0.0,
+      "antiCritPct": 2.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 2.0,
+      "fleeFinal": 0.0,
+      "pAtk": 255.0,
+      "mAtk": 153.0,
+      "pPenPct": 4.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.6,
+      "mPenFinal": 0.0,
+      "critPct": 2.0,
+      "critFinal": 0.0,
+      "hitPct": 2.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 43.0,
+        "job": 129.0
+      },
+      "odin": {
+        "base": 258,
+        "job": 774
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 37.0,
+      "card": {
+        "chancePct": 0.00272,
+        "type": "accessory",
+        "effect": "m.dmg bonus +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "steel chonchon",
+    "level": 29.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 1736.0,
+      "atk": 73.0,
+      "pDef": 45.0,
+      "mDef": 67.0,
+      "hit": 11.0,
+      "dodge": 11.0,
+      "crit": 2.2
+    },
+    "statsDetailed": {
+      "maxHp": 1736.0,
+      "pDefPct": 7.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 9.2,
+      "mDefFinal": 0.0,
+      "antiCritPct": 2.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 2.2,
+      "fleeFinal": 0.0,
+      "pAtk": 73.0,
+      "mAtk": 121.0,
+      "pPenPct": 5.9,
+      "pPenFinal": 0.0,
+      "mPenPct": 4.4,
+      "mPenFinal": 0.0,
+      "critPct": 2.2,
+      "critFinal": 0.0,
+      "hitPct": 2.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 55.0,
+        "job": 33.0
+      },
+      "odin": {
+        "base": 330,
+        "job": 198
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 18.0,
+      "card": {
+        "chancePct": 0.0014,
+        "type": "clothes",
+        "effect": "m.def +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "drainliar",
+    "level": 30.0,
+    "location": "capital sewer 2f",
+    "image": null,
+    "stats": {
+      "hp": 2021.0,
+      "atk": 100.0,
+      "pDef": 75.0,
+      "mDef": 50.0,
+      "hit": 13.0,
+      "dodge": 13.0,
+      "crit": 2.6
+    },
+    "statsDetailed": {
+      "maxHp": 2021.0,
+      "pDefPct": 10.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 7.5,
+      "mDefFinal": 0.0,
+      "antiCritPct": 2.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 2.6,
+      "fleeFinal": 0.0,
+      "pAtk": 100.0,
+      "mAtk": 166.0,
+      "pPenPct": 6.3,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.0,
+      "mPenFinal": 0.0,
+      "critPct": 2.6,
+      "critFinal": 0.0,
+      "hitPct": 2.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 34.0,
+        "job": 56.0
+      },
+      "odin": {
+        "base": 204,
+        "job": 336
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00144,
+        "type": "weapon",
+        "effect": "p.atk +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "coco",
+    "level": 31.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 3264.0,
+      "atk": 258.0,
+      "pDef": 52.0,
+      "mDef": 78.0,
+      "hit": 13.0,
+      "dodge": 13.0,
+      "crit": 2.6
+    },
+    "statsDetailed": {
+      "maxHp": 3264.0,
+      "pDefPct": 7.7,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.2,
+      "mDefFinal": 0.0,
+      "antiCritPct": 2.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 2.6,
+      "fleeFinal": 0.0,
+      "pAtk": 258.0,
+      "mAtk": 155.0,
+      "pPenPct": 5.1,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.4,
+      "mPenFinal": 0.0,
+      "critPct": 2.6,
+      "critFinal": 0.0,
+      "hitPct": 2.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 46.0,
+        "job": 46.0
+      },
+      "odin": {
+        "base": 276,
+        "job": 276
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00058,
+        "type": "headgear",
+        "effect": "m.atk +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "stainer",
+    "level": 31.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 3264.0,
+      "atk": 234.0,
+      "pDef": 33.0,
+      "mDef": 33.0,
+      "hit": 13.0,
+      "dodge": 46.0,
+      "crit": 2.6
+    },
+    "statsDetailed": {
+      "maxHp": 3264.0,
+      "pDefPct": 5.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 5.8,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.1,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.1,
+      "fleeFinal": 0.0,
+      "pAtk": 234.0,
+      "mAtk": 140.0,
+      "pPenPct": 5.1,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.4,
+      "mPenFinal": 0.0,
+      "critPct": 2.6,
+      "critFinal": 0.0,
+      "hitPct": 2.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 46.0,
+        "job": 46.0
+      },
+      "odin": {
+        "base": 276,
+        "job": 276
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00058,
+        "type": "headgear",
+        "effect": "p.atk +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "dustiness",
+    "level": 32.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 3586.0,
+      "atk": 91.0,
+      "pDef": 69.0,
+      "mDef": 69.0,
+      "hit": 14.0,
+      "dodge": 14.0,
+      "crit": 2.8
+    },
+    "statsDetailed": {
+      "maxHp": 3586.0,
+      "pDefPct": 9.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 9.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 2.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 2.8,
+      "fleeFinal": 0.0,
+      "pAtk": 91.0,
+      "mAtk": 151.0,
+      "pPenPct": 6.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.3,
+      "mPenFinal": 0.0,
+      "critPct": 2.8,
+      "critFinal": 0.0,
+      "hitPct": 2.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 35.0,
+        "job": 59.0
+      },
+      "odin": {
+        "base": 210,
+        "job": 354
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.0006,
+        "type": "cloak",
+        "effect": "max hp +4800"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "smokie",
+    "level": 32.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 3586.0,
+      "atk": 143.0,
+      "pDef": 34.0,
+      "mDef": 34.0,
+      "hit": 14.0,
+      "dodge": 48.0,
+      "crit": 2.8
+    },
+    "statsDetailed": {
+      "maxHp": 3586.0,
+      "pDefPct": 5.9,
+      "pDefFinal": 0.0,
+      "mDefPct": 5.9,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.3,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.3,
+      "fleeFinal": 0.0,
+      "pAtk": 143.0,
+      "mAtk": 238.0,
+      "pPenPct": 5.3,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.6,
+      "mPenFinal": 0.0,
+      "critPct": 2.8,
+      "critFinal": 0.0,
+      "hitPct": 2.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 71.0,
+        "job": 24.0
+      },
+      "odin": {
+        "base": 426,
+        "job": 144
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.0006,
+        "type": "accessory",
+        "effect": "aspd +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "roda frog",
+    "level": 33.0,
+    "location": "shipwreck",
+    "image": null,
+    "stats": {
+      "hp": 7898.0,
+      "atk": 500.0,
+      "pDef": 59.0,
+      "mDef": 88.0,
+      "hit": 15.0,
+      "dodge": 15.0,
+      "crit": 3.0
+    },
+    "statsDetailed": {
+      "maxHp": 7898.0,
+      "pDefPct": 8.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.87,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.0,
+      "fleeFinal": 0.0,
+      "pAtk": 500.0,
+      "mAtk": 300.0,
+      "pPenPct": 5.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.9,
+      "mPenFinal": 0.0,
+      "critPct": 3.0,
+      "critFinal": 0.0,
+      "hitPct": 3.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 48.0,
+        "job": 144.0
+      },
+      "odin": {
+        "base": 288,
+        "job": 864
+      }
+    },
+    "burn": {
+      "odin": "job",
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 48.0,
+      "card": {
+        "chancePct": 0.00124,
+        "type": "clothes",
+        "effect": "p.def +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "vocal",
+    "level": 33.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 7898.0,
+      "atk": 267.0,
+      "pDef": 59.0,
+      "mDef": 88.0,
+      "hit": 15.0,
+      "dodge": 15.0,
+      "crit": 3.0
+    },
+    "statsDetailed": {
+      "maxHp": 7898.0,
+      "pDefPct": 8.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.87,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.0,
+      "fleeFinal": 0.0,
+      "pAtk": 267.0,
+      "mAtk": 160.0,
+      "pPenPct": 5.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.9,
+      "mPenFinal": 0.0,
+      "critPct": 3.0,
+      "critFinal": 0.0,
+      "hitPct": 3.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 144.0,
+        "job": 48.0
+      },
+      "odin": {
+        "base": 864,
+        "job": 288
+      }
+    },
+    "burn": {
+      "odin": "base",
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 48.0,
+      "card": {
+        "chancePct": 0.00124,
+        "type": "clothes",
+        "effect": "max hp +4800"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "caramel",
+    "level": 34.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 4310.0,
+      "atk": 172.0,
+      "pDef": 77.0,
+      "mDef": 77.0,
+      "hit": 15.0,
+      "dodge": 15.0,
+      "crit": 3.0
+    },
+    "statsDetailed": {
+      "maxHp": 4310.0,
+      "pDefPct": 10.13,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.13,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.0,
+      "fleeFinal": 0.0,
+      "pAtk": 172.0,
+      "mAtk": 286.0,
+      "pPenPct": 7.1,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.6,
+      "mPenFinal": 0.0,
+      "critPct": 3.0,
+      "critFinal": 0.0,
+      "hitPct": 3.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 25.0,
+        "job": 74.0
+      },
+      "odin": {
+        "base": 150,
+        "job": 444
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00064,
+        "type": "weapon",
+        "effect": "m.atk +60\nm.pen +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "dead plankton",
+    "level": 34.0,
+    "location": "shipwreck",
+    "image": null,
+    "stats": {
+      "hp": 4310.0,
+      "atk": 237.0,
+      "pDef": 39.0,
+      "mDef": 39.0,
+      "hit": 15.0,
+      "dodge": 54.0,
+      "crit": 3.0
+    },
+    "statsDetailed": {
+      "maxHp": 4310.0,
+      "pDefPct": 6.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 6.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.9,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.9,
+      "fleeFinal": 0.0,
+      "pAtk": 237.0,
+      "mAtk": 395.0,
+      "pPenPct": 5.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 7.1,
+      "mPenFinal": 0.0,
+      "critPct": 3.0,
+      "critFinal": 0.0,
+      "hitPct": 3.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 49.0,
+        "job": 49.0
+      },
+      "odin": {
+        "base": 294,
+        "job": 294
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00064,
+        "type": "headgear",
+        "effect": "p.pen +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "kukre",
+    "level": 35.0,
+    "location": "treasure ship",
+    "image": null,
+    "stats": {
+      "hp": 4719.0,
+      "atk": 207.0,
+      "pDef": 82.0,
+      "mDef": 82.0,
+      "hit": 16.0,
+      "dodge": 16.0,
+      "crit": 3.2
+    },
+    "statsDetailed": {
+      "maxHp": 4719.0,
+      "pDefPct": 10.47,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.47,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.2,
+      "fleeFinal": 0.0,
+      "pAtk": 207.0,
+      "mAtk": 346.0,
+      "pPenPct": 7.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.8,
+      "mPenFinal": 0.0,
+      "critPct": 3.2,
+      "critFinal": 0.0,
+      "hitPct": 3.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 50.0,
+        "job": 50.0
+      },
+      "odin": {
+        "base": 300,
+        "job": 300
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00064,
+        "type": "accessory",
+        "effect": "haste +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "zombie",
+    "level": 35.0,
+    "location": "shipwreck",
+    "image": null,
+    "stats": {
+      "hp": 9438.0,
+      "atk": 456.0,
+      "pDef": 98.0,
+      "mDef": 65.0,
+      "hit": 16.0,
+      "dodge": 16.0,
+      "crit": 3.2
+    },
+    "statsDetailed": {
+      "maxHp": 9438.0,
+      "pDefPct": 11.53,
+      "pDefFinal": 0.0,
+      "mDefPct": 9.0,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.2,
+      "fleeFinal": 0.0,
+      "pAtk": 456.0,
+      "mAtk": 760.0,
+      "pPenPct": 7.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.8,
+      "mPenFinal": 0.0,
+      "critPct": 3.2,
+      "critFinal": 0.0,
+      "hitPct": 3.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 125.0,
+        "job": 75.0
+      },
+      "odin": {
+        "base": 750,
+        "job": 450
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 48.0,
+      "card": {
+        "chancePct": 0.0013,
+        "type": "shoes",
+        "effect": "max hp +4800"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "hydra",
+    "level": 36.0,
+    "location": "treasure ship",
+    "image": null,
+    "stats": {
+      "hp": 5135.0,
+      "atk": 168.0,
+      "pDef": 103.0,
+      "mDef": 69.0,
+      "hit": 17.0,
+      "dodge": 17.0,
+      "crit": 3.4
+    },
+    "statsDetailed": {
+      "maxHp": 5135.0,
+      "pDefPct": 11.87,
+      "pDefFinal": 0.0,
+      "mDefPct": 9.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.4,
+      "fleeFinal": 0.0,
+      "pAtk": 168.0,
+      "mAtk": 101.0,
+      "pPenPct": 7.7,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.9,
+      "mPenFinal": 0.0,
+      "critPct": 3.4,
+      "critFinal": 0.0,
+      "hitPct": 3.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 64.0,
+        "job": 38.0
+      },
+      "odin": {
+        "base": 384,
+        "job": 228
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "plant",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00066,
+        "type": "weapon",
+        "effect": "m.atk +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "horn",
+    "level": 36.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 10270.0,
+      "atk": 289.0,
+      "pDef": 86.0,
+      "mDef": 86.0,
+      "hit": 17.0,
+      "dodge": 17.0,
+      "crit": 3.4
+    },
+    "statsDetailed": {
+      "maxHp": 10270.0,
+      "pDefPct": 10.73,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.73,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.4,
+      "fleeFinal": 0.0,
+      "pAtk": 289.0,
+      "mAtk": 481.0,
+      "pPenPct": 7.7,
+      "pPenFinal": 0.0,
+      "mPenPct": 5.9,
+      "mPenFinal": 0.0,
+      "critPct": 3.4,
+      "critFinal": 0.0,
+      "hitPct": 3.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 128.0,
+        "job": 77.0
+      },
+      "odin": {
+        "base": 768,
+        "job": 462
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 48.0,
+      "card": {
+        "chancePct": 0.00132,
+        "type": "weapon",
+        "effect": "aspd +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "martin",
+    "level": 37.0,
+    "location": "mjolnir dead pit 1f",
+    "image": null,
+    "stats": {
+      "hp": 5612.0,
+      "atk": 337.0,
+      "pDef": 45.0,
+      "mDef": 45.0,
+      "hit": 18.0,
+      "dodge": 64.0,
+      "crit": 3.6
+    },
+    "statsDetailed": {
+      "maxHp": 5612.0,
+      "pDefPct": 7.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 7.0,
+      "mDefFinal": 0.0,
+      "antiCritPct": 8.9,
+      "antiCritFinal": 0.0,
+      "fleePct": 8.9,
+      "fleeFinal": 0.0,
+      "pAtk": 337.0,
+      "mAtk": 202.0,
+      "pPenPct": 6.1,
+      "pPenFinal": 0.0,
+      "mPenPct": 7.9,
+      "mPenFinal": 0.0,
+      "critPct": 3.6,
+      "critFinal": 0.0,
+      "hitPct": 3.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 26.0,
+        "job": 78.0
+      },
+      "odin": {
+        "base": 156,
+        "job": 468
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00068,
+        "type": "headgear",
+        "effect": "m.pen +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "yoyo",
+    "level": 37.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 5612.0,
+      "atk": 143.0,
+      "pDef": 109.0,
+      "mDef": 73.0,
+      "hit": 18.0,
+      "dodge": 18.0,
+      "crit": 3.6
+    },
+    "statsDetailed": {
+      "maxHp": 5612.0,
+      "pDefPct": 12.27,
+      "pDefFinal": 0.0,
+      "mDefPct": 9.8,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.6,
+      "fleeFinal": 0.0,
+      "pAtk": 143.0,
+      "mAtk": 239.0,
+      "pPenPct": 7.9,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.1,
+      "mPenFinal": 0.0,
+      "critPct": 3.6,
+      "critFinal": 0.0,
+      "hitPct": 3.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 78.0,
+        "job": 26.0
+      },
+      "odin": {
+        "base": 468,
+        "job": 156
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.00068,
+        "type": "accessory",
+        "effect": "p.pen +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "giearth",
+    "level": 38.0,
+    "location": "mjolnir dead pit 1f",
+    "image": null,
+    "stats": {
+      "hp": 6077.0,
+      "atk": 272.0,
+      "pDef": 48.0,
+      "mDef": 48.0,
+      "hit": 19.0,
+      "dodge": 67.0,
+      "crit": 3.8
+    },
+    "statsDetailed": {
+      "maxHp": 6077.0,
+      "pDefPct": 7.3,
+      "pDefFinal": 0.0,
+      "mDefPct": 7.3,
+      "mDefFinal": 0.0,
+      "antiCritPct": 9.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 9.2,
+      "fleeFinal": 0.0,
+      "pAtk": 272.0,
+      "mAtk": 453.0,
+      "pPenPct": 6.3,
+      "pPenFinal": 0.0,
+      "mPenPct": 8.2,
+      "mPenFinal": 0.0,
+      "critPct": 3.8,
+      "critFinal": 0.0,
+      "hitPct": 3.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 53.0,
+        "job": 53.0
+      },
+      "odin": {
+        "base": 318,
+        "job": 318
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demon",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 24.0,
+      "card": {
+        "chancePct": 0.0007,
+        "type": "headgear",
+        "effect": "p.dmg bonus +240"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "axe-wielding skel pirate",
+    "level": 38.0,
+    "location": "shipwreck",
+    "image": null,
+    "stats": {
+      "hp": 12155.0,
+      "atk": 491.0,
+      "pDef": 76.0,
+      "mDef": 114.0,
+      "hit": 19.0,
+      "dodge": 19.0,
+      "crit": 3.8
+    },
+    "statsDetailed": {
+      "maxHp": 12155.0,
+      "pDefPct": 10.07,
+      "pDefFinal": 0.0,
+      "mDefPct": 12.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 3.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 3.8,
+      "fleeFinal": 0.0,
+      "pAtk": 491.0,
+      "mAtk": 818.0,
+      "pPenPct": 6.3,
+      "pPenFinal": 0.0,
+      "mPenPct": 8.2,
+      "mPenFinal": 0.0,
+      "critPct": 3.8,
+      "critFinal": 0.0,
+      "hitPct": 3.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 106.0,
+        "job": 106.0
+      },
+      "odin": {
+        "base": 636,
+        "job": 636
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 48.0,
+      "card": {
+        "chancePct": 0.0014,
+        "type": "shoes",
+        "effect": "p.def +60\np.dmg red +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "pirate skeleton",
+    "level": 39.0,
+    "location": "treasure ship",
+    "image": null,
+    "stats": {
+      "hp": 13228.0,
+      "atk": 694.0,
+      "pDef": 120.0,
+      "mDef": 80.0,
+      "hit": 20.0,
+      "dodge": 20.0,
+      "crit": 4.0
+    },
+    "statsDetailed": {
+      "maxHp": 13228.0,
+      "pDefPct": 13.0,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.33,
+      "mDefFinal": 0.0,
+      "antiCritPct": 4.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 4.0,
+      "fleeFinal": 0.0,
+      "pAtk": 694.0,
+      "mAtk": 416.0,
+      "pPenPct": 8.5,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.5,
+      "mPenFinal": 0.0,
+      "critPct": 4.0,
+      "critFinal": 0.0,
+      "hitPct": 4.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 108.0,
+        "job": 108.0
+      },
+      "odin": {
+        "base": 648,
+        "job": 648
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 48.0,
+      "card": {
+        "chancePct": 0.00142,
+        "type": "accessory",
+        "effect": "m.pen +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "dagger-wielding skel pirate",
+    "level": 39.0,
+    "location": "shipwreck",
+    "image": null,
+    "stats": {
+      "hp": 13228.0,
+      "atk": 542.0,
+      "pDef": 100.0,
+      "mDef": 100.0,
+      "hit": 20.0,
+      "dodge": 20.0,
+      "crit": 4.0
+    },
+    "statsDetailed": {
+      "maxHp": 13228.0,
+      "pDefPct": 11.67,
+      "pDefFinal": 0.0,
+      "mDefPct": 11.67,
+      "mDefFinal": 0.0,
+      "antiCritPct": 4.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 4.0,
+      "fleeFinal": 0.0,
+      "pAtk": 542.0,
+      "mAtk": 904.0,
+      "pPenPct": 8.5,
+      "pPenFinal": 0.0,
+      "mPenPct": 6.5,
+      "mPenFinal": 0.0,
+      "critPct": 4.0,
+      "critFinal": 0.0,
+      "hitPct": 4.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 162.0,
+        "job": 54.0
+      },
+      "odin": {
+        "base": 972,
+        "job": 324
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 48.0,
+      "card": {
+        "chancePct": 0.00142,
+        "type": "weapon",
+        "effect": "haste +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "hunter fly",
+    "level": 40.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 7134.0,
+      "atk": 193.0,
+      "pDef": 84.0,
+      "mDef": 125.0,
+      "hit": 21.0,
+      "dodge": 21.0,
+      "crit": 4.2
+    },
+    "statsDetailed": {
+      "maxHp": 7134.0,
+      "pDefPct": 10.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 13.33,
+      "mDefFinal": 0.0,
+      "antiCritPct": 4.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 4.2,
+      "fleeFinal": 0.0,
+      "pAtk": 193.0,
+      "mAtk": 116.0,
+      "pPenPct": 6.7,
+      "pPenFinal": 0.0,
+      "mPenPct": 8.8,
+      "mPenFinal": 0.0,
+      "critPct": 4.2,
+      "critFinal": 0.0,
+      "hitPct": 4.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 69.0,
+        "job": 41.0
+      },
+      "odin": {
+        "base": 414,
+        "job": 246
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 30.0,
+      "card": {
+        "chancePct": 0.00072,
+        "type": "weapon",
+        "effect": "p.atk +60\np.dmg bonus +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "skeleton worker",
+    "level": 40.0,
+    "location": "mjolnir dead pit 1f",
+    "image": null,
+    "stats": {
+      "hp": 14268.0,
+      "atk": 1028.0,
+      "pDef": 52.0,
+      "mDef": 52.0,
+      "hit": 21.0,
+      "dodge": 73.0,
+      "crit": 4.2
+    },
+    "statsDetailed": {
+      "maxHp": 14268.0,
+      "pDefPct": 7.7,
+      "pDefFinal": 0.0,
+      "mDefPct": 7.7,
+      "mDefFinal": 0.0,
+      "antiCritPct": 9.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 9.8,
+      "fleeFinal": 0.0,
+      "pAtk": 1028.0,
+      "mAtk": 617.0,
+      "pPenPct": 6.7,
+      "pPenFinal": 0.0,
+      "mPenPct": 8.8,
+      "mPenFinal": 0.0,
+      "critPct": 4.2,
+      "critFinal": 0.0,
+      "hitPct": 4.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 110.0,
+        "job": 110.0
+      },
+      "odin": {
+        "base": 660,
+        "job": 660
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 59.0,
+      "card": {
+        "chancePct": 0.00146,
+        "type": "weapon",
+        "effect": "crit +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "whisper",
+    "level": 41.0,
+    "location": "treasure ship",
+    "image": null,
+    "stats": {
+      "hp": 11659.0,
+      "atk": 405.0,
+      "pDef": 62.0,
+      "mDef": 62.0,
+      "hit": 25.0,
+      "dodge": 87.0,
+      "crit": 5.0
+    },
+    "statsDetailed": {
+      "maxHp": 11659.0,
+      "pDefPct": 8.7,
+      "pDefFinal": 0.0,
+      "mDefPct": 8.7,
+      "mDefFinal": 0.0,
+      "antiCritPct": 10.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 10.8,
+      "fleeFinal": 0.0,
+      "pAtk": 405.0,
+      "mAtk": 675.0,
+      "pPenPct": 7.5,
+      "pPenFinal": 0.0,
+      "mPenPct": 9.9,
+      "mPenFinal": 0.0,
+      "critPct": 5.0,
+      "critFinal": 0.0,
+      "hitPct": 5.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 43.0,
+        "job": 71.0
+      },
+      "odin": {
+        "base": 258,
+        "job": 426
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demon",
+      "element": "ghost"
+    },
+    "lootPool": {
+      "zeny": 30.0,
+      "card": {
+        "chancePct": 0.00074,
+        "type": "cloak",
+        "effect": "m.dmg red +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "myst",
+    "level": 41.0,
+    "location": "mjolnir dead pit 1f",
+    "image": null,
+    "stats": {
+      "hp": 34977.0,
+      "atk": 1633.0,
+      "pDef": 99.0,
+      "mDef": 149.0,
+      "hit": 25.0,
+      "dodge": 25.0,
+      "crit": 5.0
+    },
+    "statsDetailed": {
+      "maxHp": 34977.0,
+      "pDefPct": 11.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 14.93,
+      "mDefFinal": 0.0,
+      "antiCritPct": 5.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 5.0,
+      "fleeFinal": 0.0,
+      "pAtk": 1633.0,
+      "mAtk": 980.0,
+      "pPenPct": 7.5,
+      "pPenFinal": 0.0,
+      "mPenPct": 9.9,
+      "mPenFinal": 0.0,
+      "critPct": 5.0,
+      "critFinal": 0.0,
+      "hitPct": 5.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 214.0,
+        "job": 128.0
+      },
+      "odin": {
+        "base": 1284,
+        "job": 768
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "formless",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 89.0,
+      "card": {
+        "chancePct": 0.00224,
+        "type": "cloak",
+        "effect": "p.dmg red +240"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "argos",
+    "level": 42.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 39661.0,
+      "atk": 1026.0,
+      "pDef": 163.0,
+      "mDef": 109.0,
+      "hit": 27.0,
+      "dodge": 27.0,
+      "crit": 5.2
+    },
+    "statsDetailed": {
+      "maxHp": 39661.0,
+      "pDefPct": 15.65,
+      "pDefFinal": 0.0,
+      "mDefPct": 12.27,
+      "mDefFinal": 0.0,
+      "antiCritPct": 5.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 5.2,
+      "fleeFinal": 0.0,
+      "pAtk": 1026.0,
+      "mAtk": 1711.0,
+      "pPenPct": 10.47,
+      "pPenFinal": 0.0,
+      "mPenPct": 7.9,
+      "mPenFinal": 0.0,
+      "critPct": 5.2,
+      "critFinal": 0.0,
+      "hitPct": 5.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 133.0,
+        "job": 221.0
+      },
+      "odin": {
+        "base": 798,
+        "job": 1326
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "insect",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 89.0,
+      "card": {
+        "chancePct": 0.00228,
+        "type": "weapon",
+        "effect": "p.atk +60\np.pen +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "muka",
+    "level": 42.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 39661.0,
+      "atk": 1369.0,
+      "pDef": 109.0,
+      "mDef": 163.0,
+      "hit": 27.0,
+      "dodge": 27.0,
+      "crit": 5.2
+    },
+    "statsDetailed": {
+      "maxHp": 39661.0,
+      "pDefPct": 12.27,
+      "pDefFinal": 0.0,
+      "mDefPct": 15.65,
+      "mDefFinal": 0.0,
+      "antiCritPct": 5.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 5.2,
+      "fleeFinal": 0.0,
+      "pAtk": 1369.0,
+      "mAtk": 2281.0,
+      "pPenPct": 7.9,
+      "pPenFinal": 0.0,
+      "mPenPct": 10.47,
+      "mPenFinal": 0.0,
+      "critPct": 5.2,
+      "critFinal": 0.0,
+      "hitPct": 5.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 221.0,
+        "job": 133.0
+      },
+      "odin": {
+        "base": 1326,
+        "job": 798
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "plant",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 89.0,
+      "card": {
+        "chancePct": 0.00228,
+        "type": "accessory",
+        "effect": "p.dmg bonus +240"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "mantis",
+    "level": 43.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 29801.0,
+      "atk": 996.0,
+      "pDef": 149.0,
+      "mDef": 149.0,
+      "hit": 30.0,
+      "dodge": 30.0,
+      "crit": 5.5
+    },
+    "statsDetailed": {
+      "maxHp": 29801.0,
+      "pDefPct": 14.93,
+      "pDefFinal": 0.0,
+      "mDefPct": 14.93,
+      "mDefFinal": 0.0,
+      "antiCritPct": 5.5,
+      "antiCritFinal": 0.0,
+      "fleePct": 5.5,
+      "fleeFinal": 0.0,
+      "pAtk": 996.0,
+      "mAtk": 598.0,
+      "pPenPct": 10.93,
+      "pPenFinal": 0.0,
+      "mPenPct": 8.4,
+      "mPenFinal": 0.0,
+      "critPct": 5.5,
+      "critFinal": 0.0,
+      "hitPct": 5.5,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 122.0,
+        "job": 122.0
+      },
+      "odin": {
+        "base": 732,
+        "job": 732
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 59.0,
+      "card": {
+        "chancePct": 0.00156,
+        "type": "accessory",
+        "effect": "m.dmg bonus +240"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "pecopeco",
+    "level": 43.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 44701.0,
+      "atk": 2032.0,
+      "pDef": 178.0,
+      "mDef": 119.0,
+      "hit": 30.0,
+      "dodge": 30.0,
+      "crit": 5.5
+    },
+    "statsDetailed": {
+      "maxHp": 44701.0,
+      "pDefPct": 16.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 12.93,
+      "mDefFinal": 0.0,
+      "antiCritPct": 5.5,
+      "antiCritFinal": 0.0,
+      "fleePct": 5.5,
+      "fleeFinal": 0.0,
+      "pAtk": 2032.0,
+      "mAtk": 1219.0,
+      "pPenPct": 10.93,
+      "pPenFinal": 0.0,
+      "mPenPct": 8.4,
+      "mPenFinal": 0.0,
+      "critPct": 5.5,
+      "critFinal": 0.0,
+      "hitPct": 5.5,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 275.0,
+        "job": 92.0
+      },
+      "odin": {
+        "base": 1650,
+        "job": 552
+      }
+    },
+    "burn": {
+      "odin": "base",
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 89.0,
+      "card": {
+        "chancePct": 0.00234,
+        "type": "shoes",
+        "effect": "m.def +60\nm.dmg red +60"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "metaller",
+    "level": 44.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 33342.0,
+      "atk": 1237.0,
+      "pDef": 81.0,
+      "mDef": 81.0,
+      "hit": 32.0,
+      "dodge": 113.0,
+      "crit": 5.7
+    },
+    "statsDetailed": {
+      "maxHp": 33342.0,
+      "pDefPct": 10.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 10.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 12.53,
+      "antiCritFinal": 0.0,
+      "fleePct": 12.53,
+      "fleeFinal": 0.0,
+      "pAtk": 1237.0,
+      "mAtk": 742.0,
+      "pPenPct": 8.9,
+      "pPenFinal": 0.0,
+      "mPenPct": 11.47,
+      "mPenFinal": 0.0,
+      "critPct": 5.7,
+      "critFinal": 0.0,
+      "hitPct": 5.7,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 158.0,
+        "job": 95.0
+      },
+      "odin": {
+        "base": 948,
+        "job": 570
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 59.0,
+      "card": {
+        "chancePct": 0.00158,
+        "type": "weapon",
+        "effect": "p.atk +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "anacondaq",
+    "level": 45.0,
+    "location": "morroc",
+    "image": null,
+    "stats": {
+      "hp": 38384.0,
+      "atk": 784.0,
+      "pDef": 180.0,
+      "mDef": 180.0,
+      "hit": 36.0,
+      "dodge": 36.0,
+      "crit": 6.1
+    },
+    "statsDetailed": {
+      "maxHp": 38384.0,
+      "pDefPct": 16.5,
+      "pDefFinal": 0.0,
+      "mDefPct": 16.5,
+      "mDefFinal": 0.0,
+      "antiCritPct": 6.1,
+      "antiCritFinal": 0.0,
+      "fleePct": 6.1,
+      "fleeFinal": 0.0,
+      "pAtk": 784.0,
+      "mAtk": 1307.0,
+      "pPenPct": 12.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 9.7,
+      "mPenFinal": 0.0,
+      "critPct": 6.1,
+      "critFinal": 0.0,
+      "hitPct": 6.1,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 65.0,
+        "job": 195.0
+      },
+      "odin": {
+        "base": 390,
+        "job": 1170
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 59.0,
+      "card": {
+        "chancePct": 0.00162,
+        "type": "headgear",
+        "effect": "m.dmg bonus +240"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "flora",
+    "level": 45.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 57577.0,
+      "atk": 2366.0,
+      "pDef": 216.0,
+      "mDef": 144.0,
+      "hit": 36.0,
+      "dodge": 36.0,
+      "crit": 6.1
+    },
+    "statsDetailed": {
+      "maxHp": 57577.0,
+      "pDefPct": 18.3,
+      "pDefFinal": 0.0,
+      "mDefPct": 14.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 6.1,
+      "antiCritFinal": 0.0,
+      "fleePct": 6.1,
+      "fleeFinal": 0.0,
+      "pAtk": 2366.0,
+      "mAtk": 1420.0,
+      "pPenPct": 12.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 9.7,
+      "mPenFinal": 0.0,
+      "critPct": 6.1,
+      "critFinal": 0.0,
+      "hitPct": 6.1,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 195.0,
+        "job": 195.0
+      },
+      "odin": {
+        "base": 1170,
+        "job": 1170
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "plant",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 89.0,
+      "card": {
+        "chancePct": 0.00244,
+        "type": "weapon",
+        "effect": "m.atk +60\nm.dmg bonus +120"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "scorpion",
+    "level": 46.0,
+    "location": "sograt desert",
+    "image": null,
+    "stats": {
+      "hp": 20910.0,
+      "atk": 559.0,
+      "pDef": 95.0,
+      "mDef": 95.0,
+      "hit": 38.0,
+      "dodge": 133.0,
+      "crit": 6.3
+    },
+    "statsDetailed": {
+      "maxHp": 20910.0,
+      "pDefPct": 11.33,
+      "pDefFinal": 0.0,
+      "mDefPct": 11.33,
+      "mDefFinal": 0.0,
+      "antiCritPct": 13.87,
+      "antiCritFinal": 0.0,
+      "fleePct": 13.87,
+      "fleeFinal": 0.0,
+      "pAtk": 559.0,
+      "mAtk": 931.0,
+      "pPenPct": 10.07,
+      "pPenFinal": 0.0,
+      "mPenPct": 12.6,
+      "mPenFinal": 0.0,
+      "critPct": 6.3,
+      "critFinal": 0.0,
+      "hitPct": 6.3,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 67.0,
+        "job": 67.0
+      },
+      "odin": {
+        "base": 402,
+        "job": 402
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 30.0,
+      "card": {
+        "chancePct": 0.00042,
+        "type": "weapon",
+        "effect": "final aspd +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "sasquatch",
+    "level": 46.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 62730.0,
+      "atk": 2256.0,
+      "pDef": 152.0,
+      "mDef": 228.0,
+      "hit": 38.0,
+      "dodge": 38.0,
+      "crit": 6.3
+    },
+    "statsDetailed": {
+      "maxHp": 62730.0,
+      "pDefPct": 15.1,
+      "pDefFinal": 0.0,
+      "mDefPct": 18.9,
+      "mDefFinal": 0.0,
+      "antiCritPct": 6.3,
+      "antiCritFinal": 0.0,
+      "fleePct": 6.3,
+      "fleeFinal": 0.0,
+      "pAtk": 2256.0,
+      "mAtk": 1353.0,
+      "pPenPct": 10.07,
+      "pPenFinal": 0.0,
+      "mPenPct": 12.6,
+      "mPenFinal": 0.0,
+      "critPct": 6.3,
+      "critFinal": 0.0,
+      "hitPct": 6.3,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 201.0,
+        "job": 201.0
+      },
+      "odin": {
+        "base": 1206,
+        "job": 1206
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "brute",
+      "element": "neutral"
+    },
+    "lootPool": {
+      "zeny": 89.0,
+      "card": {
+        "chancePct": 0.00124,
+        "type": "clothes",
+        "effect": "max hp +12%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "side winder",
+    "level": 47.0,
+    "location": "pyramid 1f",
+    "image": null,
+    "stats": {
+      "hp": 46137.0,
+      "atk": 930.0,
+      "pDef": 203.0,
+      "mDef": 203.0,
+      "hit": 41.0,
+      "dodge": 41.0,
+      "crit": 6.6
+    },
+    "statsDetailed": {
+      "maxHp": 46137.0,
+      "pDefPct": 17.65,
+      "pDefFinal": 0.0,
+      "mDefPct": 17.65,
+      "mDefFinal": 0.0,
+      "antiCritPct": 6.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 6.6,
+      "fleeFinal": 0.0,
+      "pAtk": 930.0,
+      "mAtk": 1550.0,
+      "pPenPct": 13.13,
+      "pPenFinal": 0.0,
+      "mPenPct": 10.4,
+      "mPenFinal": 0.0,
+      "critPct": 6.6,
+      "critFinal": 0.0,
+      "hitPct": 6.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 138.0,
+        "job": 138.0
+      },
+      "odin": {
+        "base": 828,
+        "job": 828
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 59.0,
+      "card": {
+        "chancePct": 0.00084,
+        "type": "weapon",
+        "effect": "final haste +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "golem",
+    "level": 47.0,
+    "location": "sograt desert",
+    "image": null,
+    "stats": {
+      "hp": 69206.0,
+      "atk": 1895.0,
+      "pDef": 203.0,
+      "mDef": 203.0,
+      "hit": 41.0,
+      "dodge": 41.0,
+      "crit": 6.6
+    },
+    "statsDetailed": {
+      "maxHp": 69206.0,
+      "pDefPct": 17.65,
+      "pDefFinal": 0.0,
+      "mDefPct": 17.65,
+      "mDefFinal": 0.0,
+      "antiCritPct": 6.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 6.6,
+      "fleeFinal": 0.0,
+      "pAtk": 1895.0,
+      "mAtk": 3158.0,
+      "pPenPct": 13.13,
+      "pPenFinal": 0.0,
+      "mPenPct": 10.4,
+      "mPenFinal": 0.0,
+      "critPct": 6.6,
+      "critFinal": 0.0,
+      "hitPct": 6.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 259.0,
+        "job": 155.0
+      },
+      "odin": {
+        "base": 1554,
+        "job": 930
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "formless",
+      "element": "neutral"
+    },
+    "lootPool": {
+      "zeny": 89.0,
+      "card": {
+        "chancePct": 0.00128,
+        "type": "accessory",
+        "effect": "final aspd +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "ant larva",
+    "level": 48.0,
+    "location": "ant cavern",
+    "image": null,
+    "stats": {
+      "hp": 25476.0,
+      "atk": 0.0,
+      "pDef": 109.0,
+      "mDef": 109.0,
+      "hit": 44.0,
+      "dodge": 153.0,
+      "crit": 6.9
+    },
+    "statsDetailed": {
+      "maxHp": 25476.0,
+      "pDefPct": 12.27,
+      "pDefFinal": 0.0,
+      "mDefPct": 12.27,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.15,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.15,
+      "fleeFinal": 0.0,
+      "pAtk": 0.0,
+      "mAtk": 0.0,
+      "pPenPct": 10.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 13.73,
+      "mPenFinal": 0.0,
+      "critPct": 6.9,
+      "critFinal": 0.0,
+      "hitPct": 6.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 71.0,
+        "job": 71.0
+      },
+      "odin": {
+        "base": 426,
+        "job": 426
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "neutral"
+    },
+    "lootPool": {
+      "zeny": 30.0,
+      "card": {
+        "chancePct": 0.00044,
+        "type": "headgear",
+        "effect": "p.atk +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "magnolia",
+    "level": 48.0,
+    "location": "sograt desert",
+    "image": null,
+    "stats": {
+      "hp": 25476.0,
+      "atk": 1119.0,
+      "pDef": 262.0,
+      "mDef": 174.0,
+      "hit": 44.0,
+      "dodge": 44.0,
+      "crit": 6.9
+    },
+    "statsDetailed": {
+      "maxHp": 25476.0,
+      "pDefPct": 20.48,
+      "pDefFinal": 0.0,
+      "mDefPct": 16.2,
+      "mDefFinal": 0.0,
+      "antiCritPct": 6.9,
+      "antiCritFinal": 0.0,
+      "fleePct": 6.9,
+      "fleeFinal": 0.0,
+      "pAtk": 1119.0,
+      "mAtk": 671.0,
+      "pPenPct": 13.73,
+      "pPenFinal": 0.0,
+      "mPenPct": 10.8,
+      "mPenFinal": 0.0,
+      "critPct": 6.9,
+      "critFinal": 0.0,
+      "hitPct": 6.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 89.0,
+        "job": 53.0
+      },
+      "odin": {
+        "base": 534,
+        "job": 318
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demon",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 30.0,
+      "card": {
+        "chancePct": 0.00044,
+        "type": "weapon",
+        "effect": "final crit +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "matyr",
+    "level": 49.0,
+    "location": "pyramid 1f",
+    "image": null,
+    "stats": {
+      "hp": 56162.0,
+      "atk": 506.0,
+      "pDef": 187.0,
+      "mDef": 280.0,
+      "hit": 47.0,
+      "dodge": 47.0,
+      "crit": 7.2
+    },
+    "statsDetailed": {
+      "maxHp": 56162.0,
+      "pDefPct": 16.85,
+      "pDefFinal": 0.0,
+      "mDefPct": 21.2,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.2,
+      "fleeFinal": 0.0,
+      "pAtk": 506.0,
+      "mAtk": 304.0,
+      "pPenPct": 11.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 14.33,
+      "mPenFinal": 0.0,
+      "critPct": 7.2,
+      "critFinal": 0.0,
+      "hitPct": 7.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 146.0,
+        "job": 146.0
+      },
+      "odin": {
+        "base": 876,
+        "job": 876
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 59.0,
+      "card": {
+        "chancePct": 0.00088,
+        "type": "shoes",
+        "effect": "max hp +12%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "hode",
+    "level": 49.0,
+    "location": "sograt desert",
+    "image": null,
+    "stats": {
+      "hp": 56162.0,
+      "atk": 1046.0,
+      "pDef": 233.0,
+      "mDef": 233.0,
+      "hit": 47.0,
+      "dodge": 47.0,
+      "crit": 7.2
+    },
+    "statsDetailed": {
+      "maxHp": 56162.0,
+      "pDefPct": 19.15,
+      "pDefFinal": 0.0,
+      "mDefPct": 19.15,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.2,
+      "fleeFinal": 0.0,
+      "pAtk": 1046.0,
+      "mAtk": 1743.0,
+      "pPenPct": 14.33,
+      "pPenFinal": 0.0,
+      "mPenPct": 11.2,
+      "mPenFinal": 0.0,
+      "critPct": 7.2,
+      "critFinal": 0.0,
+      "hitPct": 7.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 146.0,
+        "job": 146.0
+      },
+      "odin": {
+        "base": 876,
+        "job": 876
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 59.0,
+      "card": {
+        "chancePct": 0.00088,
+        "type": "cloak",
+        "effect": "max hp +12%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "andre",
+    "level": 50.0,
+    "location": "ant cavern",
+    "image": null,
+    "stats": {
+      "hp": 30833.0,
+      "atk": 663.0,
+      "pDef": 249.0,
+      "mDef": 249.0,
+      "hit": 50.0,
+      "dodge": 50.0,
+      "crit": 7.5
+    },
+    "statsDetailed": {
+      "maxHp": 30833.0,
+      "pDefPct": 19.95,
+      "pDefFinal": 0.0,
+      "mDefPct": 19.95,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.5,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.5,
+      "fleeFinal": 0.0,
+      "pAtk": 663.0,
+      "mAtk": 1105.0,
+      "pPenPct": 14.93,
+      "pPenFinal": 0.0,
+      "mPenPct": 11.6,
+      "mPenFinal": 0.0,
+      "critPct": 7.5,
+      "critFinal": 0.0,
+      "hitPct": 7.5,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 75.0,
+        "job": 75.0
+      },
+      "odin": {
+        "base": 450,
+        "job": 450
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.00046,
+        "type": "weapon",
+        "effect": "p.atk +3%\nfinal p.pen +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "desert wolf",
+    "level": 50.0,
+    "location": "sograt desert",
+    "image": null,
+    "stats": {
+      "hp": 61667.0,
+      "atk": 1439.0,
+      "pDef": 298.0,
+      "mDef": 199.0,
+      "hit": 50.0,
+      "dodge": 50.0,
+      "crit": 7.5
+    },
+    "statsDetailed": {
+      "maxHp": 61667.0,
+      "pDefPct": 21.92,
+      "pDefFinal": 0.0,
+      "mDefPct": 17.45,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.5,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.5,
+      "fleeFinal": 0.0,
+      "pAtk": 1439.0,
+      "mAtk": 863.0,
+      "pPenPct": 14.93,
+      "pPenFinal": 0.0,
+      "mPenPct": 11.6,
+      "mPenFinal": 0.0,
+      "critPct": 7.5,
+      "critFinal": 0.0,
+      "hitPct": 7.5,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 113.0,
+        "job": 188.0
+      },
+      "odin": {
+        "base": 678,
+        "job": 1128
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 72.0,
+      "card": {
+        "chancePct": 0.0009,
+        "type": "weapon",
+        "effect": "m.atk +3%\nfinal m.dmg bonus +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "piere",
+    "level": 51.0,
+    "location": "ant cavern",
+    "image": null,
+    "stats": {
+      "hp": 42352.0,
+      "atk": 1379.0,
+      "pDef": 133.0,
+      "mDef": 133.0,
+      "hit": 51.0,
+      "dodge": 186.0,
+      "crit": 7.6
+    },
+    "statsDetailed": {
+      "maxHp": 42352.0,
+      "pDefPct": 13.87,
+      "pDefFinal": 0.0,
+      "mDefPct": 13.87,
+      "mDefFinal": 0.0,
+      "antiCritPct": 16.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 16.8,
+      "fleeFinal": 0.0,
+      "pAtk": 1379.0,
+      "mAtk": 919.0,
+      "pPenPct": 11.73,
+      "pPenFinal": 0.0,
+      "mPenPct": 15.1,
+      "mPenFinal": 0.0,
+      "critPct": 7.6,
+      "critFinal": 0.0,
+      "hitPct": 7.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 77.0,
+        "job": 77.0
+      },
+      "odin": {
+        "base": 462,
+        "job": 462
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.00046,
+        "type": "headgear",
+        "effect": "m.atk +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "soldier skeleton",
+    "level": 51.0,
+    "location": "pyramid 1f",
+    "image": null,
+    "stats": {
+      "hp": 84703.0,
+      "atk": 2438.0,
+      "pDef": 265.0,
+      "mDef": 265.0,
+      "hit": 51.0,
+      "dodge": 53.0,
+      "crit": 7.6
+    },
+    "statsDetailed": {
+      "maxHp": 84703.0,
+      "pDefPct": 20.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 20.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 7.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 7.8,
+      "fleeFinal": 0.0,
+      "pAtk": 2438.0,
+      "mAtk": 3656.0,
+      "pPenPct": 15.1,
+      "pPenFinal": 0.0,
+      "mPenPct": 11.73,
+      "mPenFinal": 0.0,
+      "critPct": 7.6,
+      "critFinal": 0.0,
+      "hitPct": 7.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 193.0,
+        "job": 116.0
+      },
+      "odin": {
+        "base": 1158,
+        "job": 696
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 72.0,
+      "card": {
+        "chancePct": 0.00092,
+        "type": "accessory",
+        "effect": "final haste +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "vadon",
+    "level": 52.0,
+    "location": "underwater cave",
+    "image": null,
+    "stats": {
+      "hp": 46677.0,
+      "atk": 1898.0,
+      "pDef": 227.0,
+      "mDef": 341.0,
+      "hit": 54.0,
+      "dodge": 57.0,
+      "crit": 7.9
+    },
+    "statsDetailed": {
+      "maxHp": 46677.0,
+      "pDefPct": 18.85,
+      "pDefFinal": 0.0,
+      "mDefPct": 23.64,
+      "mDefFinal": 0.0,
+      "antiCritPct": 8.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 8.2,
+      "fleeFinal": 0.0,
+      "pAtk": 1898.0,
+      "mAtk": 1265.0,
+      "pPenPct": 12.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 15.6,
+      "mPenFinal": 0.0,
+      "critPct": 7.9,
+      "critFinal": 0.0,
+      "hitPct": 7.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 59.0,
+        "job": 99.0
+      },
+      "odin": {
+        "base": 354,
+        "job": 594
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.00046,
+        "type": "weapon",
+        "effect": "p.atk +3%\nfinal p.dmg bonus +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "argiope",
+    "level": 52.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 140030.0,
+      "atk": 4168.0,
+      "pDef": 284.0,
+      "mDef": 284.0,
+      "hit": 54.0,
+      "dodge": 57.0,
+      "crit": 7.9
+    },
+    "statsDetailed": {
+      "maxHp": 140030.0,
+      "pDefPct": 21.36,
+      "pDefFinal": 0.0,
+      "mDefPct": 21.36,
+      "mDefFinal": 0.0,
+      "antiCritPct": 8.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 8.2,
+      "fleeFinal": 0.0,
+      "pAtk": 4168.0,
+      "mAtk": 6253.0,
+      "pPenPct": 15.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 12.2,
+      "mPenFinal": 0.0,
+      "critPct": 7.9,
+      "critFinal": 0.0,
+      "hitPct": 7.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 237.0,
+        "job": 237.0
+      },
+      "odin": {
+        "base": 1422,
+        "job": 1422
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "insect",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 108.0,
+      "card": {
+        "chancePct": 0.0014,
+        "type": "clothes",
+        "effect": "final p.def +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "marina",
+    "level": 53.0,
+    "location": "underwater cave",
+    "image": null,
+    "stats": {
+      "hp": 51206.0,
+      "atk": 2882.0,
+      "pDef": 152.0,
+      "mDef": 152.0,
+      "hit": 57.0,
+      "dodge": 212.0,
+      "crit": 8.2
+    },
+    "statsDetailed": {
+      "maxHp": 51206.0,
+      "pDefPct": 15.1,
+      "pDefFinal": 0.0,
+      "mDefPct": 15.1,
+      "mDefFinal": 0.0,
+      "antiCritPct": 18.1,
+      "antiCritFinal": 0.0,
+      "fleePct": 18.1,
+      "fleeFinal": 0.0,
+      "pAtk": 2882.0,
+      "mAtk": 1921.0,
+      "pPenPct": 12.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 16.1,
+      "mPenFinal": 0.0,
+      "critPct": 8.2,
+      "critFinal": 0.0,
+      "hitPct": 8.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 61.0,
+        "job": 101.0
+      },
+      "odin": {
+        "base": 366,
+        "job": 606
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "plant",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.00048,
+        "type": "weapon",
+        "effect": "p.atk +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "archer skeleton",
+    "level": 53.0,
+    "location": "pyramid 1f",
+    "image": null,
+    "stats": {
+      "hp": 102412.0,
+      "atk": 5423.0,
+      "pDef": 242.0,
+      "mDef": 364.0,
+      "hit": 57.0,
+      "dodge": 61.0,
+      "crit": 8.2
+    },
+    "statsDetailed": {
+      "maxHp": 102412.0,
+      "pDefPct": 19.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 24.56,
+      "mDefFinal": 0.0,
+      "antiCritPct": 8.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 8.6,
+      "fleeFinal": 0.0,
+      "pAtk": 5423.0,
+      "mAtk": 3615.0,
+      "pPenPct": 12.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 16.1,
+      "mPenFinal": 0.0,
+      "critPct": 8.2,
+      "critFinal": 0.0,
+      "hitPct": 8.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 122.0,
+        "job": 203.0
+      },
+      "odin": {
+        "base": 732,
+        "job": 1218
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 72.0,
+      "card": {
+        "chancePct": 0.00096,
+        "type": "weapon",
+        "effect": "m.atk +3%\nfinal m.pen +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "deniro",
+    "level": 54.0,
+    "location": "ant cavern",
+    "image": null,
+    "stats": {
+      "hp": 56013.0,
+      "atk": 1177.0,
+      "pDef": 322.0,
+      "mDef": 322.0,
+      "hit": 61.0,
+      "dodge": 64.0,
+      "crit": 8.6
+    },
+    "statsDetailed": {
+      "maxHp": 56013.0,
+      "pDefPct": 22.88,
+      "pDefFinal": 0.0,
+      "mDefPct": 22.88,
+      "mDefFinal": 0.0,
+      "antiCritPct": 8.9,
+      "antiCritFinal": 0.0,
+      "fleePct": 8.9,
+      "fleeFinal": 0.0,
+      "pAtk": 1177.0,
+      "mAtk": 1765.0,
+      "pPenPct": 16.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 13.07,
+      "mPenFinal": 0.0,
+      "critPct": 8.6,
+      "critFinal": 0.0,
+      "hitPct": 8.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 83.0,
+        "job": 83.0
+      },
+      "odin": {
+        "base": 498,
+        "job": 498
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.00048,
+        "type": "headgear",
+        "effect": "final p.pen +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "frilldora",
+    "level": 54.0,
+    "location": "sograt desert",
+    "image": null,
+    "stats": {
+      "hp": 112026.0,
+      "atk": 2108.0,
+      "pDef": 387.0,
+      "mDef": 258.0,
+      "hit": 61.0,
+      "dodge": 64.0,
+      "crit": 8.6
+    },
+    "statsDetailed": {
+      "maxHp": 112026.0,
+      "pDefPct": 25.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 20.32,
+      "mDefFinal": 0.0,
+      "antiCritPct": 8.9,
+      "antiCritFinal": 0.0,
+      "fleePct": 8.9,
+      "fleeFinal": 0.0,
+      "pAtk": 2108.0,
+      "mAtk": 3161.0,
+      "pPenPct": 16.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 13.07,
+      "mPenFinal": 0.0,
+      "critPct": 8.6,
+      "critFinal": 0.0,
+      "hitPct": 8.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 166.0,
+        "job": 166.0
+      },
+      "odin": {
+        "base": 996,
+        "job": 996
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 72.0,
+      "card": {
+        "chancePct": 0.00098,
+        "type": "cloak",
+        "effect": "final p.dmg red +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "vitata",
+    "level": 55.0,
+    "location": "ant cavern",
+    "image": null,
+    "stats": {
+      "hp": 61110.0,
+      "atk": 2616.0,
+      "pDef": 410.0,
+      "mDef": 273.0,
+      "hit": 64.0,
+      "dodge": 68.0,
+      "crit": 8.9
+    },
+    "statsDetailed": {
+      "maxHp": 61110.0,
+      "pDefPct": 26.17,
+      "pDefFinal": 0.0,
+      "mDefPct": 20.92,
+      "mDefFinal": 0.0,
+      "antiCritPct": 9.3,
+      "antiCritFinal": 0.0,
+      "fleePct": 9.3,
+      "fleeFinal": 0.0,
+      "pAtk": 2616.0,
+      "mAtk": 1744.0,
+      "pPenPct": 17.1,
+      "pPenFinal": 0.0,
+      "mPenPct": 13.53,
+      "mPenFinal": 0.0,
+      "critPct": 8.9,
+      "critFinal": 0.0,
+      "hitPct": 8.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 43.0,
+        "job": 128.0
+      },
+      "odin": {
+        "base": 258,
+        "job": 768
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.0005,
+        "type": "accessory",
+        "effect": "final p.pen +6%\ncan use lv1 heal. sp cost of all skills is increased by 25%\nthis effect doesnt stack"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "cornutus",
+    "level": 55.0,
+    "location": "underwater cave",
+    "image": null,
+    "stats": {
+      "hp": 61110.0,
+      "atk": 1847.0,
+      "pDef": 273.0,
+      "mDef": 410.0,
+      "hit": 64.0,
+      "dodge": 68.0,
+      "crit": 8.9
+    },
+    "statsDetailed": {
+      "maxHp": 61110.0,
+      "pDefPct": 20.92,
+      "pDefFinal": 0.0,
+      "mDefPct": 26.17,
+      "mDefFinal": 0.0,
+      "antiCritPct": 9.3,
+      "antiCritFinal": 0.0,
+      "fleePct": 9.3,
+      "fleeFinal": 0.0,
+      "pAtk": 1847.0,
+      "mAtk": 1231.0,
+      "pPenPct": 13.53,
+      "pPenFinal": 0.0,
+      "mPenPct": 17.1,
+      "mPenFinal": 0.0,
+      "critPct": 8.9,
+      "critFinal": 0.0,
+      "hitPct": 8.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 64.0,
+        "job": 106.0
+      },
+      "odin": {
+        "base": 384,
+        "job": 636
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.0005,
+        "type": "shoes",
+        "effect": "final p.def +3%\nfinal p.dmg red +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "phen",
+    "level": 56.0,
+    "location": "underwater cave",
+    "image": null,
+    "stats": {
+      "hp": 133016.0,
+      "atk": 4044.0,
+      "pDef": 434.0,
+      "mDef": 289.0,
+      "hit": 68.0,
+      "dodge": 72.0,
+      "crit": 9.3
+    },
+    "statsDetailed": {
+      "maxHp": 133016.0,
+      "pDefPct": 26.97,
+      "pDefFinal": 0.0,
+      "mDefPct": 21.56,
+      "mDefFinal": 0.0,
+      "antiCritPct": 9.7,
+      "antiCritFinal": 0.0,
+      "fleePct": 9.7,
+      "fleeFinal": 0.0,
+      "pAtk": 4044.0,
+      "mAtk": 6065.0,
+      "pPenPct": 17.65,
+      "pPenFinal": 0.0,
+      "mPenPct": 14.0,
+      "mPenFinal": 0.0,
+      "critPct": 9.3,
+      "critFinal": 0.0,
+      "hitPct": 9.3,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 131.0,
+        "job": 218.0
+      },
+      "odin": {
+        "base": 786,
+        "job": 1308
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 72.0,
+      "card": {
+        "chancePct": 0.00102,
+        "type": "accessory",
+        "effect": "final m.pen +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "mummy",
+    "level": 56.0,
+    "location": "pyramid 1f",
+    "image": null,
+    "stats": {
+      "hp": 133016.0,
+      "atk": 4227.0,
+      "pDef": 181.0,
+      "mDef": 181.0,
+      "hit": 68.0,
+      "dodge": 253.0,
+      "crit": 9.3
+    },
+    "statsDetailed": {
+      "maxHp": 133016.0,
+      "pDefPct": 16.55,
+      "pDefFinal": 0.0,
+      "mDefPct": 16.55,
+      "mDefFinal": 0.0,
+      "antiCritPct": 20.12,
+      "antiCritFinal": 0.0,
+      "fleePct": 20.12,
+      "fleeFinal": 0.0,
+      "pAtk": 4227.0,
+      "mAtk": 2818.0,
+      "pPenPct": 14.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 17.65,
+      "mPenFinal": 0.0,
+      "critPct": 9.3,
+      "critFinal": 0.0,
+      "hitPct": 9.3,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 261.0,
+        "job": 87.0
+      },
+      "odin": {
+        "base": 1566,
+        "job": 522
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 72.0,
+      "card": {
+        "chancePct": 0.00102,
+        "type": "headgear",
+        "effect": "final m.pen +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "verit",
+    "level": 57.0,
+    "location": "pyramid 2f",
+    "image": null,
+    "stats": {
+      "hp": 144687.0,
+      "atk": 6340.0,
+      "pDef": 191.0,
+      "mDef": 191.0,
+      "hit": 71.0,
+      "dodge": 268.0,
+      "crit": 9.6
+    },
+    "statsDetailed": {
+      "maxHp": 144687.0,
+      "pDefPct": 17.05,
+      "pDefFinal": 0.0,
+      "mDefPct": 17.05,
+      "mDefFinal": 0.0,
+      "antiCritPct": 20.72,
+      "antiCritFinal": 0.0,
+      "fleePct": 20.72,
+      "fleeFinal": 0.0,
+      "pAtk": 6340.0,
+      "mAtk": 4227.0,
+      "pPenPct": 14.47,
+      "pPenFinal": 0.0,
+      "mPenPct": 18.15,
+      "mPenFinal": 0.0,
+      "critPct": 9.6,
+      "critFinal": 0.0,
+      "hitPct": 9.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 178.0,
+        "job": 178.0
+      },
+      "odin": {
+        "base": 1068,
+        "job": 1068
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 72.0,
+      "card": {
+        "chancePct": 0.00102,
+        "type": "headgear",
+        "effect": "final m.dmg bonus +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "marduk",
+    "level": 57.0,
+    "location": "sphinx cavern",
+    "image": null,
+    "stats": {
+      "hp": 217030.0,
+      "atk": 7906.0,
+      "pDef": 306.0,
+      "mDef": 460.0,
+      "hit": 71.0,
+      "dodge": 77.0,
+      "crit": 9.6
+    },
+    "statsDetailed": {
+      "maxHp": 217030.0,
+      "pDefPct": 22.24,
+      "pDefFinal": 0.0,
+      "mDefPct": 27.83,
+      "mDefFinal": 0.0,
+      "antiCritPct": 10.13,
+      "antiCritFinal": 0.0,
+      "fleePct": 10.13,
+      "fleeFinal": 0.0,
+      "pAtk": 7906.0,
+      "mAtk": 5271.0,
+      "pPenPct": 14.47,
+      "pPenFinal": 0.0,
+      "mPenPct": 18.15,
+      "mPenFinal": 0.0,
+      "critPct": 9.6,
+      "critFinal": 0.0,
+      "hitPct": 9.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 200.0,
+        "job": 334.0
+      },
+      "odin": {
+        "base": 1200,
+        "job": 2004
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demi-human",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 108.0,
+      "card": {
+        "chancePct": 0.00154,
+        "type": "headgear",
+        "effect": "final p.dmg bonus +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "marine sphere",
+    "level": 58.0,
+    "location": "underwater cave",
+    "image": null,
+    "stats": {
+      "hp": 77884.0,
+      "atk": 0.0,
+      "pDef": 201.0,
+      "mDef": 201.0,
+      "hit": 74.0,
+      "dodge": 281.0,
+      "crit": 9.9
+    },
+    "statsDetailed": {
+      "maxHp": 77884.0,
+      "pDefPct": 17.55,
+      "pDefFinal": 0.0,
+      "mDefPct": 17.55,
+      "mDefFinal": 0.0,
+      "antiCritPct": 21.24,
+      "antiCritFinal": 0.0,
+      "fleePct": 21.24,
+      "fleeFinal": 0.0,
+      "pAtk": 0.0,
+      "mAtk": 0.0,
+      "pPenPct": 14.87,
+      "pPenFinal": 0.0,
+      "mPenPct": 18.65,
+      "mPenFinal": 0.0,
+      "critPct": 9.9,
+      "critFinal": 0.0,
+      "hitPct": 9.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 91.0,
+        "job": 91.0
+      },
+      "odin": {
+        "base": 546,
+        "job": 546
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "plant",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 36.0,
+      "card": {
+        "chancePct": 0.00052,
+        "type": "accessory",
+        "effect": "final p.dmg bonus +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "isis",
+    "level": 58.0,
+    "location": "pyramid 2f",
+    "image": null,
+    "stats": {
+      "hp": 233652.0,
+      "atk": 5031.0,
+      "pDef": 401.0,
+      "mDef": 401.0,
+      "hit": 74.0,
+      "dodge": 80.0,
+      "crit": 9.9
+    },
+    "statsDetailed": {
+      "maxHp": 233652.0,
+      "pDefPct": 25.87,
+      "pDefFinal": 0.0,
+      "mDefPct": 25.87,
+      "mDefFinal": 0.0,
+      "antiCritPct": 10.33,
+      "antiCritFinal": 0.0,
+      "fleePct": 10.33,
+      "fleeFinal": 0.0,
+      "pAtk": 5031.0,
+      "mAtk": 7546.0,
+      "pPenPct": 18.65,
+      "pPenFinal": 0.0,
+      "mPenPct": 14.87,
+      "mPenFinal": 0.0,
+      "critPct": 9.9,
+      "critFinal": 0.0,
+      "hitPct": 9.9,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 341.0,
+        "job": 205.0
+      },
+      "odin": {
+        "base": 2046,
+        "job": 1230
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demon",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 108.0,
+      "card": {
+        "chancePct": 0.00158,
+        "type": "shoes",
+        "effect": "final m.def +3%\nfinal m.dmg red +3%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "swordfish",
+    "level": 59.0,
+    "location": "underwater temple",
+    "image": null,
+    "stats": {
+      "hp": 251096.0,
+      "atk": 7637.0,
+      "pDef": 336.0,
+      "mDef": 504.0,
+      "hit": 77.0,
+      "dodge": 84.0,
+      "crit": 10.13
+    },
+    "statsDetailed": {
+      "maxHp": 251096.0,
+      "pDefPct": 23.44,
+      "pDefFinal": 0.0,
+      "mDefPct": 29.3,
+      "mDefFinal": 0.0,
+      "antiCritPct": 10.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 10.6,
+      "fleeFinal": 0.0,
+      "pAtk": 7637.0,
+      "mAtk": 11455.0,
+      "pPenPct": 15.25,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.1,
+      "mPenFinal": 0.0,
+      "critPct": 10.13,
+      "critFinal": 0.0,
+      "hitPct": 10.13,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 140.0,
+        "job": 419.0
+      },
+      "odin": {
+        "base": 840,
+        "job": 2514
+      }
+    },
+    "burn": {
+      "odin": "job",
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 108.0,
+      "card": {
+        "chancePct": 0.0016,
+        "type": "clothes",
+        "effect": "final m.def +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "minorous",
+    "level": 59.0,
+    "location": "pyramid 2f",
+    "image": null,
+    "stats": {
+      "hp": 251096.0,
+      "atk": 7908.0,
+      "pDef": 420.0,
+      "mDef": 420.0,
+      "hit": 77.0,
+      "dodge": 84.0,
+      "crit": 10.13
+    },
+    "statsDetailed": {
+      "maxHp": 251096.0,
+      "pDefPct": 26.5,
+      "pDefFinal": 0.0,
+      "mDefPct": 26.5,
+      "mDefFinal": 0.0,
+      "antiCritPct": 10.6,
+      "antiCritFinal": 0.0,
+      "fleePct": 10.6,
+      "fleeFinal": 0.0,
+      "pAtk": 7908.0,
+      "mAtk": 5272.0,
+      "pPenPct": 19.1,
+      "pPenFinal": 0.0,
+      "mPenPct": 15.25,
+      "mPenFinal": 0.0,
+      "critPct": 10.13,
+      "critFinal": 0.0,
+      "hitPct": 10.13,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 349.0,
+        "job": 209.0
+      },
+      "odin": {
+        "base": 2094,
+        "job": 1254
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 108.0,
+      "card": {
+        "chancePct": 0.0016,
+        "type": "weapon",
+        "effect": "m.atk +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "marse",
+    "level": 60.0,
+    "location": "underwater temple",
+    "image": null,
+    "stats": {
+      "hp": 91639.0,
+      "atk": 4033.0,
+      "pDef": 224.0,
+      "mDef": 224.0,
+      "hit": 80.0,
+      "dodge": 313.0,
+      "crit": 10.33
+    },
+    "statsDetailed": {
+      "maxHp": 91639.0,
+      "pDefPct": 18.7,
+      "pDefFinal": 0.0,
+      "mDefPct": 18.7,
+      "mDefFinal": 0.0,
+      "antiCritPct": 22.52,
+      "antiCritFinal": 0.0,
+      "fleePct": 22.52,
+      "fleeFinal": 0.0,
+      "pAtk": 4033.0,
+      "mAtk": 2689.0,
+      "pPenPct": 15.55,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.55,
+      "mPenFinal": 0.0,
+      "critPct": 10.33,
+      "critFinal": 0.0,
+      "hitPct": 10.33,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 95.0,
+        "job": 95.0
+      },
+      "odin": {
+        "base": 570,
+        "job": 570
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 43.0,
+      "card": {
+        "chancePct": 0.00054,
+        "type": "cloak",
+        "effect": "final m.dmg red +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "zerom",
+    "level": 60.0,
+    "location": "sphinx cavern",
+    "image": null,
+    "stats": {
+      "hp": 183278.0,
+      "atk": 5494.0,
+      "pDef": 537.0,
+      "mDef": 358.0,
+      "hit": 80.0,
+      "dodge": 89.0,
+      "crit": 10.33
+    },
+    "statsDetailed": {
+      "maxHp": 183278.0,
+      "pDefPct": 30.34,
+      "pDefFinal": 0.0,
+      "mDefPct": 24.32,
+      "mDefFinal": 0.0,
+      "antiCritPct": 10.93,
+      "antiCritFinal": 0.0,
+      "fleePct": 10.93,
+      "fleeFinal": 0.0,
+      "pAtk": 5494.0,
+      "mAtk": 3662.0,
+      "pPenPct": 19.55,
+      "pPenFinal": 0.0,
+      "mPenPct": 15.55,
+      "mPenFinal": 0.0,
+      "critPct": 10.33,
+      "critFinal": 0.0,
+      "hitPct": 10.33,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 238.0,
+        "job": 143.0
+      },
+      "odin": {
+        "base": 1428,
+        "job": 858
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00108,
+        "type": "accessory",
+        "effect": "final m.dmg bonus +6%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "arclouze",
+    "level": 61.0,
+    "location": "pyramid 2f",
+    "image": null,
+    "stats": {
+      "hp": 116813.0,
+      "atk": 1393.0,
+      "pDef": 370.0,
+      "mDef": 555.0,
+      "hit": 83.0,
+      "dodge": 93.0,
+      "crit": 10.53
+    },
+    "statsDetailed": {
+      "maxHp": 116813.0,
+      "pDefPct": 24.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 30.86,
+      "mDefFinal": 0.0,
+      "antiCritPct": 11.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 11.2,
+      "fleeFinal": 0.0,
+      "pAtk": 1393.0,
+      "mAtk": 2089.0,
+      "pPenPct": 15.85,
+      "pPenFinal": 0.0,
+      "mPenPct": 20.0,
+      "mPenFinal": 0.0,
+      "critPct": 10.53,
+      "critFinal": 0.0,
+      "hitPct": 10.53,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 123.0,
+        "job": 74.0
+      },
+      "odin": {
+        "base": 738,
+        "job": 444
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "insect",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 43.0,
+      "card": {
+        "chancePct": 0.00028,
+        "type": "weapon",
+        "effect": "water enhance +10%\nwind enhance +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "obeaune",
+    "level": 61.0,
+    "location": "underwater temple",
+    "image": null,
+    "stats": {
+      "hp": 233626.0,
+      "atk": 6105.0,
+      "pDef": 463.0,
+      "mDef": 463.0,
+      "hit": 83.0,
+      "dodge": 93.0,
+      "crit": 10.53
+    },
+    "statsDetailed": {
+      "maxHp": 233626.0,
+      "pDefPct": 27.93,
+      "pDefFinal": 0.0,
+      "mDefPct": 27.93,
+      "mDefFinal": 0.0,
+      "antiCritPct": 11.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 11.2,
+      "fleeFinal": 0.0,
+      "pAtk": 6105.0,
+      "mAtk": 4070.0,
+      "pPenPct": 20.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 15.85,
+      "mPenFinal": 0.0,
+      "critPct": 10.53,
+      "critFinal": 0.0,
+      "hitPct": 10.53,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 147.0,
+        "job": 245.0
+      },
+      "odin": {
+        "base": 882,
+        "job": 1470
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00056,
+        "type": "accessory",
+        "effect": "stun res +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "wormtail",
+    "level": 62.0,
+    "location": "payon south",
+    "image": null,
+    "stats": {
+      "hp": 251941.0,
+      "atk": 2426.0,
+      "pDef": 584.0,
+      "mDef": 389.0,
+      "hit": 87.0,
+      "dodge": 97.0,
+      "crit": 10.8
+    },
+    "statsDetailed": {
+      "maxHp": 251941.0,
+      "pDefPct": 31.69,
+      "pDefFinal": 0.0,
+      "mDefPct": 25.47,
+      "mDefFinal": 0.0,
+      "antiCritPct": 11.47,
+      "antiCritFinal": 0.0,
+      "fleePct": 11.47,
+      "fleeFinal": 0.0,
+      "pAtk": 2426.0,
+      "mAtk": 3639.0,
+      "pPenPct": 20.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 16.15,
+      "mPenFinal": 0.0,
+      "critPct": 10.8,
+      "critFinal": 0.0,
+      "hitPct": 10.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 202.0,
+        "job": 202.0
+      },
+      "odin": {
+        "base": 1212,
+        "job": 1212
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "plant",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00056,
+        "type": "accessory",
+        "effect": "freeze res +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "requiem",
+    "level": 62.0,
+    "location": "sphinx cavern",
+    "image": null,
+    "stats": {
+      "hp": 251941.0,
+      "atk": 5268.0,
+      "pDef": 584.0,
+      "mDef": 389.0,
+      "hit": 87.0,
+      "dodge": 97.0,
+      "crit": 10.8
+    },
+    "statsDetailed": {
+      "maxHp": 251941.0,
+      "pDefPct": 31.69,
+      "pDefFinal": 0.0,
+      "mDefPct": 25.47,
+      "mDefFinal": 0.0,
+      "antiCritPct": 11.47,
+      "antiCritFinal": 0.0,
+      "fleePct": 11.47,
+      "fleeFinal": 0.0,
+      "pAtk": 5268.0,
+      "mAtk": 3512.0,
+      "pPenPct": 20.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 16.15,
+      "mPenFinal": 0.0,
+      "critPct": 10.8,
+      "critFinal": 0.0,
+      "hitPct": 10.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 253.0,
+        "job": 152.0
+      },
+      "odin": {
+        "base": 1518,
+        "job": 912
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00056,
+        "type": "weapon",
+        "effect": "earth enhance +10%\nfire enhance +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "snake",
+    "level": 63.0,
+    "location": "payon west",
+    "image": null,
+    "stats": {
+      "hp": 270898.0,
+      "atk": 5803.0,
+      "pDef": 509.0,
+      "mDef": 509.0,
+      "hit": 90.0,
+      "dodge": 102.0,
+      "crit": 11.0
+    },
+    "statsDetailed": {
+      "maxHp": 270898.0,
+      "pDefPct": 29.47,
+      "pDefFinal": 0.0,
+      "mDefPct": 29.47,
+      "mDefFinal": 0.0,
+      "antiCritPct": 11.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 11.8,
+      "fleeFinal": 0.0,
+      "pAtk": 5803.0,
+      "mAtk": 3869.0,
+      "pPenPct": 20.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 16.5,
+      "mPenFinal": 0.0,
+      "critPct": 11.0,
+      "critFinal": 0.0,
+      "hitPct": 11.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 104.0,
+        "job": 312.0
+      },
+      "odin": {
+        "base": 624,
+        "job": 1872
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00058,
+        "type": "weapon",
+        "effect": "ghost enhance +10%\npoison enhance +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "bigfoot",
+    "level": 63.0,
+    "location": "payon west",
+    "image": null,
+    "stats": {
+      "hp": 406347.0,
+      "atk": 6171.0,
+      "pDef": 408.0,
+      "mDef": 611.0,
+      "hit": 90.0,
+      "dodge": 102.0,
+      "crit": 11.0
+    },
+    "statsDetailed": {
+      "maxHp": 406347.0,
+      "pDefPct": 26.1,
+      "pDefFinal": 0.0,
+      "mDefPct": 32.46,
+      "mDefFinal": 0.0,
+      "antiCritPct": 11.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 11.8,
+      "fleeFinal": 0.0,
+      "pAtk": 6171.0,
+      "mAtk": 9256.0,
+      "pPenPct": 16.5,
+      "pPenFinal": 0.0,
+      "mPenPct": 20.8,
+      "mPenFinal": 0.0,
+      "critPct": 11.0,
+      "critFinal": 0.0,
+      "hitPct": 11.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 234.0,
+        "job": 390.0
+      },
+      "odin": {
+        "base": 1404,
+        "job": 2340
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "brute",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 129.0,
+      "card": {
+        "chancePct": 0.00086,
+        "type": "weapon",
+        "effect": "holy enhance +10%\nneutral enhance +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "wolf",
+    "level": 64.0,
+    "location": "payon west",
+    "image": null,
+    "stats": {
+      "hp": 290911.0,
+      "atk": 4082.0,
+      "pDef": 267.0,
+      "mDef": 267.0,
+      "hit": 93.0,
+      "dodge": 373.0,
+      "crit": 11.2
+    },
+    "statsDetailed": {
+      "maxHp": 290911.0,
+      "pDefPct": 20.68,
+      "pDefFinal": 0.0,
+      "mDefPct": 20.68,
+      "mDefFinal": 0.0,
+      "antiCritPct": 24.92,
+      "antiCritFinal": 0.0,
+      "fleePct": 24.92,
+      "fleeFinal": 0.0,
+      "pAtk": 4082.0,
+      "mAtk": 2721.0,
+      "pPenPct": 16.85,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.2,
+      "mPenFinal": 0.0,
+      "critPct": 11.2,
+      "critFinal": 0.0,
+      "hitPct": 11.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 268.0,
+        "job": 161.0
+      },
+      "odin": {
+        "base": 1608,
+        "job": 966
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "brute",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00058,
+        "type": "weapon",
+        "effect": "final aspd +40%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "pasana",
+    "level": 64.0,
+    "location": "sphinx cavern",
+    "image": null,
+    "stats": {
+      "hp": 436367.0,
+      "atk": 5079.0,
+      "pDef": 427.0,
+      "mDef": 640.0,
+      "hit": 93.0,
+      "dodge": 107.0,
+      "crit": 11.2
+    },
+    "statsDetailed": {
+      "maxHp": 436367.0,
+      "pDefPct": 26.73,
+      "pDefFinal": 0.0,
+      "mDefPct": 33.29,
+      "mDefFinal": 0.0,
+      "antiCritPct": 12.13,
+      "antiCritFinal": 0.0,
+      "fleePct": 12.13,
+      "fleeFinal": 0.0,
+      "pAtk": 5079.0,
+      "mAtk": 7619.0,
+      "pPenPct": 16.85,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.2,
+      "mPenFinal": 0.0,
+      "critPct": 11.2,
+      "critFinal": 0.0,
+      "hitPct": 11.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 321.0,
+        "job": 321.0
+      },
+      "odin": {
+        "base": 1926,
+        "job": 1926
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demi-human",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 129.0,
+      "card": {
+        "chancePct": 0.00088,
+        "type": "clothes",
+        "effect": "neutral damage from monster -10%\nshadow damage from monster -10%\nwind damage from monster -10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "skeleton",
+    "level": 65.0,
+    "location": "munak cave 1f",
+    "image": null,
+    "stats": {
+      "hp": 311740.0,
+      "atk": 9161.0,
+      "pDef": 668.0,
+      "mDef": 446.0,
+      "hit": 97.0,
+      "dodge": 111.0,
+      "crit": 11.47
+    },
+    "statsDetailed": {
+      "maxHp": 311740.0,
+      "pDefPct": 34.09,
+      "pDefFinal": 0.0,
+      "mDefPct": 27.37,
+      "mDefFinal": 0.0,
+      "antiCritPct": 12.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 12.4,
+      "fleeFinal": 0.0,
+      "pAtk": 9161.0,
+      "mAtk": 6108.0,
+      "pPenPct": 21.64,
+      "pPenFinal": 0.0,
+      "mPenPct": 17.2,
+      "mPenFinal": 0.0,
+      "critPct": 11.47,
+      "critFinal": 0.0,
+      "hitPct": 11.47,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 220.0,
+        "job": 220.0
+      },
+      "odin": {
+        "base": 1320,
+        "job": 1320
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.006,
+        "type": "weapon",
+        "effect": "bonus dmg to large +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "anubis",
+    "level": 65.0,
+    "location": "sphinx cavern",
+    "image": null,
+    "stats": {
+      "hp": 467610.0,
+      "atk": 6847.0,
+      "pDef": 446.0,
+      "mDef": 668.0,
+      "hit": 97.0,
+      "dodge": 111.0,
+      "crit": 11.47
+    },
+    "statsDetailed": {
+      "maxHp": 467610.0,
+      "pDefPct": 27.37,
+      "pDefFinal": 0.0,
+      "mDefPct": 34.09,
+      "mDefFinal": 0.0,
+      "antiCritPct": 12.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 12.4,
+      "fleeFinal": 0.0,
+      "pAtk": 6847.0,
+      "mAtk": 10271.0,
+      "pPenPct": 17.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.64,
+      "mPenFinal": 0.0,
+      "critPct": 11.47,
+      "critFinal": 0.0,
+      "hitPct": 11.47,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 495.0,
+        "job": 165.0
+      },
+      "odin": {
+        "base": 2970,
+        "job": 990
+      }
+    },
+    "burn": {
+      "odin": "base",
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demi-human",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 129.0,
+      "card": {
+        "chancePct": 0.0009,
+        "type": "weapon",
+        "effect": "final crit +8%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "munak",
+    "level": 66.0,
+    "location": "munak cave 1f",
+    "image": null,
+    "stats": {
+      "hp": 333405.0,
+      "atk": 10710.0,
+      "pDef": 290.0,
+      "mDef": 290.0,
+      "hit": 100.0,
+      "dodge": 407.0,
+      "crit": 11.67
+    },
+    "statsDetailed": {
+      "maxHp": 333405.0,
+      "pDefPct": 21.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 21.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 26.07,
+      "antiCritFinal": 0.0,
+      "fleePct": 26.07,
+      "fleeFinal": 0.0,
+      "pAtk": 10710.0,
+      "mAtk": 7140.0,
+      "pPenPct": 17.55,
+      "pPenFinal": 0.0,
+      "mPenPct": 22.04,
+      "mPenFinal": 0.0,
+      "critPct": 11.67,
+      "critFinal": 0.0,
+      "hitPct": 11.67,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 226.0,
+        "job": 226.0
+      },
+      "odin": {
+        "base": 1356,
+        "job": 1356
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.0006,
+        "type": "weapon",
+        "effect": "bonus dmg to medium +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "elder willow",
+    "level": 66.0,
+    "location": "payon east forest",
+    "image": null,
+    "stats": {
+      "hp": 500108.0,
+      "atk": 7921.0,
+      "pDef": 581.0,
+      "mDef": 581.0,
+      "hit": 100.0,
+      "dodge": 116.0,
+      "crit": 11.67
+    },
+    "statsDetailed": {
+      "maxHp": 500108.0,
+      "pDefPct": 31.6,
+      "pDefFinal": 0.0,
+      "mDefPct": 31.6,
+      "mDefFinal": 0.0,
+      "antiCritPct": 12.73,
+      "antiCritFinal": 0.0,
+      "fleePct": 12.73,
+      "fleeFinal": 0.0,
+      "pAtk": 7921.0,
+      "mAtk": 11881.0,
+      "pPenPct": 22.04,
+      "pPenFinal": 0.0,
+      "mPenPct": 17.55,
+      "mPenFinal": 0.0,
+      "critPct": 11.67,
+      "critFinal": 0.0,
+      "hitPct": 11.67,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 339.0,
+        "job": 339.0
+      },
+      "odin": {
+        "base": 2034,
+        "job": 2034
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "plant",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 129.0,
+      "card": {
+        "chancePct": 0.0009,
+        "type": "headgear",
+        "effect": "blind res +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "marc",
+    "level": 67.0,
+    "location": "underwater temple",
+    "image": null,
+    "stats": {
+      "hp": 178235.0,
+      "atk": 2580.0,
+      "pDef": 606.0,
+      "mDef": 606.0,
+      "hit": 104.0,
+      "dodge": 121.0,
+      "crit": 11.93
+    },
+    "statsDetailed": {
+      "maxHp": 178235.0,
+      "pDefPct": 32.31,
+      "pDefFinal": 0.0,
+      "mDefPct": 32.31,
+      "mDefFinal": 0.0,
+      "antiCritPct": 13.07,
+      "antiCritFinal": 0.0,
+      "fleePct": 13.07,
+      "fleeFinal": 0.0,
+      "pAtk": 2580.0,
+      "mAtk": 3870.0,
+      "pPenPct": 22.44,
+      "pPenFinal": 0.0,
+      "mPenPct": 17.9,
+      "mPenFinal": 0.0,
+      "critPct": 11.93,
+      "critFinal": 0.0,
+      "hitPct": 11.93,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 116.0,
+        "job": 116.0
+      },
+      "odin": {
+        "base": 696,
+        "job": 696
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 43.0,
+      "card": {
+        "chancePct": 0.0003,
+        "type": "clothes",
+        "effect": "fire damage from monster -10%\nghost damage from monster -10%\nearth damage monster -10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "bongun",
+    "level": 67.0,
+    "location": "munak cave 1f",
+    "image": null,
+    "stats": {
+      "hp": 356469.0,
+      "atk": 7862.0,
+      "pDef": 606.0,
+      "mDef": 606.0,
+      "hit": 104.0,
+      "dodge": 121.0,
+      "crit": 11.93
+    },
+    "statsDetailed": {
+      "maxHp": 356469.0,
+      "pDefPct": 32.31,
+      "pDefFinal": 0.0,
+      "mDefPct": 32.31,
+      "mDefFinal": 0.0,
+      "antiCritPct": 13.07,
+      "antiCritFinal": 0.0,
+      "fleePct": 13.07,
+      "fleeFinal": 0.0,
+      "pAtk": 7862.0,
+      "mAtk": 5241.0,
+      "pPenPct": 22.44,
+      "pPenFinal": 0.0,
+      "mPenPct": 17.9,
+      "mPenFinal": 0.0,
+      "critPct": 11.93,
+      "critFinal": 0.0,
+      "hitPct": 11.93,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 232.0,
+        "job": 232.0
+      },
+      "odin": {
+        "base": 1392,
+        "job": 1392
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00062,
+        "type": "accessory",
+        "effect": "immobilize res +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "dokebi",
+    "level": 68.0,
+    "location": "munak cave 1f",
+    "image": null,
+    "stats": {
+      "hp": 189950.0,
+      "atk": 3722.0,
+      "pDef": 756.0,
+      "mDef": 504.0,
+      "hit": 107.0,
+      "dodge": 126.0,
+      "crit": 12.13
+    },
+    "statsDetailed": {
+      "maxHp": 189950.0,
+      "pDefPct": 36.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 29.3,
+      "mDefFinal": 0.0,
+      "antiCritPct": 13.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 13.4,
+      "fleeFinal": 0.0,
+      "pAtk": 3722.0,
+      "mAtk": 2481.0,
+      "pPenPct": 22.88,
+      "pPenFinal": 0.0,
+      "mPenPct": 18.2,
+      "mPenFinal": 0.0,
+      "critPct": 12.13,
+      "critFinal": 0.0,
+      "hitPct": 12.13,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 149.0,
+        "job": 89.0
+      },
+      "odin": {
+        "base": 894,
+        "job": 534
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demon",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 43.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "clothes",
+        "effect": "water damage from monster -10%\ndamage from from monster -10%\npoison damage from monster -10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "greatest general",
+    "level": 68.0,
+    "location": "payon east forest",
+    "image": null,
+    "stats": {
+      "hp": 569849.0,
+      "atk": 11070.0,
+      "pDef": 756.0,
+      "mDef": 504.0,
+      "hit": 107.0,
+      "dodge": 126.0,
+      "crit": 12.13
+    },
+    "statsDetailed": {
+      "maxHp": 569849.0,
+      "pDefPct": 36.4,
+      "pDefFinal": 0.0,
+      "mDefPct": 29.3,
+      "mDefFinal": 0.0,
+      "antiCritPct": 13.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 13.4,
+      "fleeFinal": 0.0,
+      "pAtk": 11070.0,
+      "mAtk": 7380.0,
+      "pPenPct": 22.88,
+      "pPenFinal": 0.0,
+      "mPenPct": 18.2,
+      "mPenFinal": 0.0,
+      "critPct": 12.13,
+      "critFinal": 0.0,
+      "hitPct": 12.13,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 446.0,
+        "job": 268.0
+      },
+      "odin": {
+        "base": 2676,
+        "job": 1608
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "formless",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 129.0,
+      "card": {
+        "chancePct": 0.00094,
+        "type": "accessory",
+        "effect": "petrify res +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "deviace",
+    "level": 69.0,
+    "location": "underwater temple",
+    "image": null,
+    "stats": {
+      "hp": 202114.0,
+      "atk": 3780.0,
+      "pDef": 523.0,
+      "mDef": 784.0,
+      "hit": 111.0,
+      "dodge": 131.0,
+      "crit": 12.4
+    },
+    "statsDetailed": {
+      "maxHp": 202114.0,
+      "pDefPct": 29.93,
+      "pDefFinal": 0.0,
+      "mDefPct": 37.1,
+      "mDefFinal": 0.0,
+      "antiCritPct": 13.73,
+      "antiCritFinal": 0.0,
+      "fleePct": 13.73,
+      "fleeFinal": 0.0,
+      "pAtk": 3780.0,
+      "mAtk": 5670.0,
+      "pPenPct": 18.55,
+      "pPenFinal": 0.0,
+      "mPenPct": 23.28,
+      "mPenFinal": 0.0,
+      "critPct": 12.4,
+      "critFinal": 0.0,
+      "hitPct": 12.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 61.0,
+        "job": 183.0
+      },
+      "odin": {
+        "base": 366,
+        "job": 1098
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "fish",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 43.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "weapon",
+        "effect": "bonus dmg to small +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "sohee",
+    "level": 69.0,
+    "location": "munak cave 2f",
+    "image": null,
+    "stats": {
+      "hp": 404228.0,
+      "atk": 7121.0,
+      "pDef": 327.0,
+      "mDef": 327.0,
+      "hit": 111.0,
+      "dodge": 458.0,
+      "crit": 12.4
+    },
+    "statsDetailed": {
+      "maxHp": 404228.0,
+      "pDefPct": 23.08,
+      "pDefFinal": 0.0,
+      "mDefPct": 23.08,
+      "mDefFinal": 0.0,
+      "antiCritPct": 27.77,
+      "antiCritFinal": 0.0,
+      "fleePct": 27.77,
+      "fleeFinal": 0.0,
+      "pAtk": 7121.0,
+      "mAtk": 10682.0,
+      "pPenPct": 18.55,
+      "pPenFinal": 0.0,
+      "mPenPct": 23.28,
+      "mPenFinal": 0.0,
+      "critPct": 12.4,
+      "critFinal": 0.0,
+      "hitPct": 12.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 244.0,
+        "job": 244.0
+      },
+      "odin": {
+        "base": 1464,
+        "job": 1464
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demon",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 86.0,
+      "card": {
+        "chancePct": 0.00064,
+        "type": "shoes",
+        "effect": "reduced dmg from large +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "nine tail",
+    "level": 70.0,
+    "location": "payon west",
+    "image": null,
+    "stats": {
+      "hp": 214738.0,
+      "atk": 1986.0,
+      "pDef": 678.0,
+      "mDef": 678.0,
+      "hit": 114.0,
+      "dodge": 136.0,
+      "crit": 12.6
+    },
+    "statsDetailed": {
+      "maxHp": 214738.0,
+      "pDefPct": 34.37,
+      "pDefFinal": 0.0,
+      "mDefPct": 34.37,
+      "mDefFinal": 0.0,
+      "antiCritPct": 14.07,
+      "antiCritFinal": 0.0,
+      "fleePct": 14.07,
+      "fleeFinal": 0.0,
+      "pAtk": 1986.0,
+      "mAtk": 2979.0,
+      "pPenPct": 23.68,
+      "pPenFinal": 0.0,
+      "mPenPct": 18.9,
+      "mPenFinal": 0.0,
+      "critPct": 12.6,
+      "critFinal": 0.0,
+      "hitPct": 12.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 125.0,
+        "job": 125.0
+      },
+      "odin": {
+        "base": 750,
+        "job": 750
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "brute",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 50.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "cloak",
+        "effect": "damage from demon mobs -10%\ndamage from fish mobs -10%\ndamage from dragon -10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "eggyra",
+    "level": 70.0,
+    "location": "payon east forest",
+    "image": null,
+    "stats": {
+      "hp": 429476.0,
+      "atk": 6454.0,
+      "pDef": 339.0,
+      "mDef": 339.0,
+      "hit": 114.0,
+      "dodge": 474.0,
+      "crit": 12.6
+    },
+    "statsDetailed": {
+      "maxHp": 429476.0,
+      "pDefPct": 23.56,
+      "pDefFinal": 0.0,
+      "mDefPct": 23.56,
+      "mDefFinal": 0.0,
+      "antiCritPct": 28.3,
+      "antiCritFinal": 0.0,
+      "fleePct": 28.3,
+      "fleeFinal": 0.0,
+      "pAtk": 6454.0,
+      "mAtk": 9681.0,
+      "pPenPct": 18.9,
+      "pPenFinal": 0.0,
+      "mPenPct": 23.68,
+      "mPenFinal": 0.0,
+      "critPct": 12.6,
+      "critFinal": 0.0,
+      "hitPct": 12.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 125.0,
+        "job": 375.0
+      },
+      "odin": {
+        "base": 750,
+        "job": 2250
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "formless",
+      "element": "ghost"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.00064,
+        "type": "shoes",
+        "effect": "reduced dmg from large +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "horong",
+    "level": 71.0,
+    "location": "munak cave 2f",
+    "image": null,
+    "stats": {
+      "hp": 264663.0,
+      "atk": 6998.0,
+      "pDef": 699.0,
+      "mDef": 699.0,
+      "hit": 117.0,
+      "dodge": 140.0,
+      "crit": 12.8
+    },
+    "statsDetailed": {
+      "maxHp": 264663.0,
+      "pDefPct": 34.97,
+      "pDefFinal": 0.0,
+      "mDefPct": 34.97,
+      "mDefFinal": 0.0,
+      "antiCritPct": 14.33,
+      "antiCritFinal": 0.0,
+      "fleePct": 14.33,
+      "fleeFinal": 0.0,
+      "pAtk": 6998.0,
+      "mAtk": 4666.0,
+      "pPenPct": 24.04,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.2,
+      "mPenFinal": 0.0,
+      "critPct": 12.8,
+      "critFinal": 0.0,
+      "hitPct": 12.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 128.0,
+        "job": 128.0
+      },
+      "odin": {
+        "base": 768,
+        "job": 768
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "formless",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 50.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "accessory",
+        "effect": "sleep res +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "flail-wielding goblin",
+    "level": 71.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 529326.0,
+      "atk": 4888.0,
+      "pDef": 839.0,
+      "mDef": 559.0,
+      "hit": 117.0,
+      "dodge": 140.0,
+      "crit": 12.8
+    },
+    "statsDetailed": {
+      "maxHp": 529326.0,
+      "pDefPct": 38.48,
+      "pDefFinal": 0.0,
+      "mDefPct": 30.97,
+      "mDefFinal": 0.0,
+      "antiCritPct": 14.33,
+      "antiCritFinal": 0.0,
+      "fleePct": 14.33,
+      "fleeFinal": 0.0,
+      "pAtk": 4888.0,
+      "mAtk": 7332.0,
+      "pPenPct": 24.04,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.2,
+      "mPenFinal": 0.0,
+      "critPct": 12.8,
+      "critFinal": 0.0,
+      "hitPct": 12.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 320.0,
+        "job": 192.0
+      },
+      "odin": {
+        "base": 1920,
+        "job": 1152
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.00066,
+        "type": "headgear",
+        "effect": "curse res +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "orc baby",
+    "level": 72.0,
+    "location": "orc village",
+    "image": null,
+    "stats": {
+      "hp": 281375.0,
+      "atk": 3347.0,
+      "pDef": 870.0,
+      "mDef": 580.0,
+      "hit": 121.0,
+      "dodge": 145.0,
+      "crit": 13.07
+    },
+    "statsDetailed": {
+      "maxHp": 281375.0,
+      "pDefPct": 39.25,
+      "pDefFinal": 0.0,
+      "mDefPct": 31.57,
+      "mDefFinal": 0.0,
+      "antiCritPct": 14.67,
+      "antiCritFinal": 0.0,
+      "fleePct": 14.67,
+      "fleeFinal": 0.0,
+      "pAtk": 3347.0,
+      "mAtk": 2231.0,
+      "pPenPct": 24.48,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.6,
+      "mPenFinal": 0.0,
+      "critPct": 13.07,
+      "critFinal": 0.0,
+      "hitPct": 13.07,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 131.0,
+        "job": 131.0
+      },
+      "odin": {
+        "base": 786,
+        "job": 786
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demi-human",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 50.0,
+      "card": {
+        "chancePct": 0.00034,
+        "type": "accessory",
+        "effect": "silence res +30%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "orc zombie",
+    "level": 72.0,
+    "location": "orc dungeon",
+    "image": null,
+    "stats": {
+      "hp": 844124.0,
+      "atk": 33275.0,
+      "pDef": 725.0,
+      "mDef": 725.0,
+      "hit": 121.0,
+      "dodge": 145.0,
+      "crit": 13.07
+    },
+    "statsDetailed": {
+      "maxHp": 844124.0,
+      "pDefPct": 35.62,
+      "pDefFinal": 0.0,
+      "mDefPct": 35.62,
+      "mDefFinal": 0.0,
+      "antiCritPct": 14.67,
+      "antiCritFinal": 0.0,
+      "fleePct": 14.67,
+      "fleeFinal": 0.0,
+      "pAtk": 33275.0,
+      "mAtk": 22184.0,
+      "pPenPct": 24.48,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.6,
+      "mPenFinal": 0.0,
+      "critPct": 13.07,
+      "critFinal": 0.0,
+      "hitPct": 13.07,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 295.0,
+        "job": 491.0
+      },
+      "odin": {
+        "base": 1770,
+        "job": 2946
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 150.0,
+      "card": {
+        "chancePct": 0.001,
+        "type": "cloak",
+        "effect": "damage from formless mobs -10%\ndamage from demi-human mobs -10%\ndamage from plant mobs -10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "mace-wielding goblin",
+    "level": 73.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 597264.0,
+      "atk": 12562.0,
+      "pDef": 902.0,
+      "mDef": 601.0,
+      "hit": 125.0,
+      "dodge": 150.0,
+      "crit": 13.33
+    },
+    "statsDetailed": {
+      "maxHp": 597264.0,
+      "pDefPct": 40.04,
+      "pDefFinal": 0.0,
+      "mDefPct": 32.17,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.0,
+      "fleeFinal": 0.0,
+      "pAtk": 12562.0,
+      "mAtk": 18842.0,
+      "pPenPct": 24.96,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.95,
+      "mPenFinal": 0.0,
+      "critPct": 13.33,
+      "critFinal": 0.0,
+      "hitPct": 13.33,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 268.0,
+        "job": 268.0
+      },
+      "odin": {
+        "base": 1608,
+        "job": 1608
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "water"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.00068,
+        "type": "headgear",
+        "effect": "poison res +10% (for debuff \"poisoned\")"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "mace-wielding kobold",
+    "level": 73.0,
+    "location": "kordt forest",
+    "image": null,
+    "stats": {
+      "hp": 597264.0,
+      "atk": 7549.0,
+      "pDef": 752.0,
+      "mDef": 752.0,
+      "hit": 125.0,
+      "dodge": 150.0,
+      "crit": 13.33
+    },
+    "statsDetailed": {
+      "maxHp": 597264.0,
+      "pDefPct": 36.3,
+      "pDefFinal": 0.0,
+      "mDefPct": 36.3,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.0,
+      "fleeFinal": 0.0,
+      "pAtk": 7549.0,
+      "mAtk": 5033.0,
+      "pPenPct": 24.96,
+      "pPenFinal": 0.0,
+      "mPenPct": 19.95,
+      "mPenFinal": 0.0,
+      "critPct": 13.33,
+      "critFinal": 0.0,
+      "hitPct": 13.33,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 335.0,
+        "job": 201.0
+      },
+      "odin": {
+        "base": 2010,
+        "job": 1206
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.00068,
+        "type": "headgear",
+        "effect": "bleed res +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "jakk",
+    "level": 74.0,
+    "location": "geffen dungeon 1f",
+    "image": null,
+    "stats": {
+      "hp": 316858.0,
+      "atk": 3385.0,
+      "pDef": 389.0,
+      "mDef": 389.0,
+      "hit": 129.0,
+      "dodge": 545.0,
+      "crit": 13.6
+    },
+    "statsDetailed": {
+      "maxHp": 316858.0,
+      "pDefPct": 25.47,
+      "pDefFinal": 0.0,
+      "mDefPct": 25.47,
+      "mDefFinal": 0.0,
+      "antiCritPct": 30.57,
+      "antiCritFinal": 0.0,
+      "fleePct": 30.57,
+      "fleeFinal": 0.0,
+      "pAtk": 3385.0,
+      "mAtk": 5077.0,
+      "pPenPct": 20.32,
+      "pPenFinal": 0.0,
+      "mPenPct": 25.37,
+      "mPenFinal": 0.0,
+      "critPct": 13.6,
+      "critFinal": 0.0,
+      "hitPct": 13.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 206.0,
+        "job": 69.0
+      },
+      "odin": {
+        "base": 1236,
+        "job": 414
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "formless",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 50.0,
+      "card": {
+        "chancePct": 0.00034,
+        "type": "cloak",
+        "effect": "damage from insect mobs -10%\ndamage from undead mobs -10%\ndamage from brute mobs -10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "skeleton general",
+    "level": 74.0,
+    "location": "munak cave 2f",
+    "image": null,
+    "stats": {
+      "hp": 633716.0,
+      "atk": 14716.0,
+      "pDef": 623.0,
+      "mDef": 935.0,
+      "hit": 129.0,
+      "dodge": 156.0,
+      "crit": 13.6
+    },
+    "statsDetailed": {
+      "maxHp": 633716.0,
+      "pDefPct": 32.8,
+      "pDefFinal": 0.0,
+      "mDefPct": 40.78,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.3,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.3,
+      "fleeFinal": 0.0,
+      "pAtk": 14716.0,
+      "mAtk": 9811.0,
+      "pPenPct": 20.32,
+      "pPenFinal": 0.0,
+      "mPenPct": 25.37,
+      "mPenFinal": 0.0,
+      "critPct": 13.6,
+      "critFinal": 0.0,
+      "hitPct": 13.6,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 274.0,
+        "job": 274.0
+      },
+      "odin": {
+        "base": 1644,
+        "job": 1644
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.0006,
+        "type": "shoes",
+        "effect": "reduced dmg froms small +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "hammer-wielding goblin",
+    "level": 75.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 681489.0,
+      "atk": 7323.0,
+      "pDef": 654.0,
+      "mDef": 982.0,
+      "hit": 133.0,
+      "dodge": 164.0,
+      "crit": 13.87
+    },
+    "statsDetailed": {
+      "maxHp": 681489.0,
+      "pDefPct": 33.69,
+      "pDefFinal": 0.0,
+      "mDefPct": 41.82,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.7,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.7,
+      "fleeFinal": 0.0,
+      "pAtk": 7323.0,
+      "mAtk": 10984.0,
+      "pPenPct": 20.64,
+      "pPenFinal": 0.0,
+      "mPenPct": 25.8,
+      "mPenFinal": 0.0,
+      "critPct": 13.87,
+      "critFinal": 0.0,
+      "hitPct": 13.87,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 350.0,
+        "job": 210.0
+      },
+      "odin": {
+        "base": 2100,
+        "job": 1260
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.0007,
+        "type": "headgear",
+        "effect": "armor break res +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "hammer-wielding kobold",
+    "level": 76.0,
+    "location": "kordt forest",
+    "image": null,
+    "stats": {
+      "hp": 717011.0,
+      "atk": 10887.0,
+      "pDef": 841.0,
+      "mDef": 841.0,
+      "hit": 137.0,
+      "dodge": 168.0,
+      "crit": 14.13
+    },
+    "statsDetailed": {
+      "maxHp": 717011.0,
+      "pDefPct": 38.52,
+      "pDefFinal": 0.0,
+      "mDefPct": 38.52,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.9,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.9,
+      "fleeFinal": 0.0,
+      "pAtk": 10887.0,
+      "mAtk": 7258.0,
+      "pPenPct": 26.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 20.96,
+      "mPenFinal": 0.0,
+      "critPct": 14.13,
+      "critFinal": 0.0,
+      "hitPct": 14.13,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 286.0,
+        "job": 286.0
+      },
+      "odin": {
+        "base": 1716,
+        "job": 1716
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.00028,
+        "type": "accessory",
+        "effect": "physical lifesteal +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "orc warrior",
+    "level": 75.0,
+    "location": "orc village",
+    "image": null,
+    "stats": {
+      "hp": 1022234.0,
+      "atk": 16815.0,
+      "pDef": 409.0,
+      "mDef": 409.0,
+      "hit": 133.0,
+      "dodge": 573.0,
+      "crit": 13.87
+    },
+    "statsDetailed": {
+      "maxHp": 1022234.0,
+      "pDefPct": 26.13,
+      "pDefFinal": 0.0,
+      "mDefPct": 26.13,
+      "mDefFinal": 0.0,
+      "antiCritPct": 31.37,
+      "antiCritFinal": 0.0,
+      "fleePct": 31.37,
+      "fleeFinal": 0.0,
+      "pAtk": 16815.0,
+      "mAtk": 25223.0,
+      "pPenPct": 20.64,
+      "pPenFinal": 0.0,
+      "mPenPct": 25.8,
+      "mPenFinal": 0.0,
+      "critPct": 13.87,
+      "critFinal": 0.0,
+      "hitPct": 13.87,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 210.0,
+        "job": 630.0
+      },
+      "odin": {
+        "base": 1260,
+        "job": 3780
+      }
+    },
+    "burn": {
+      "odin": "job",
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demi-human",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 150.0,
+      "card": {
+        "chancePct": 0.00106,
+        "type": "headgear",
+        "effect": "weapon break res +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "orc skeleton",
+    "level": 76.0,
+    "location": "orc dungeon",
+    "image": null,
+    "stats": {
+      "hp": 1075517.0,
+      "atk": 22960.0,
+      "pDef": 420.0,
+      "mDef": 420.0,
+      "hit": 137.0,
+      "dodge": 589.0,
+      "crit": 14.13
+    },
+    "statsDetailed": {
+      "maxHp": 1075517.0,
+      "pDefPct": 26.5,
+      "pDefFinal": 0.0,
+      "mDefPct": 26.5,
+      "mDefFinal": 0.0,
+      "antiCritPct": 31.83,
+      "antiCritFinal": 0.0,
+      "fleePct": 31.83,
+      "fleeFinal": 0.0,
+      "pAtk": 22960.0,
+      "mAtk": 34439.0,
+      "pPenPct": 20.96,
+      "pPenFinal": 0.0,
+      "mPenPct": 26.2,
+      "mPenFinal": 0.0,
+      "critPct": 14.13,
+      "critFinal": 0.0,
+      "hitPct": 14.13,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 429.0,
+        "job": 429.0
+      },
+      "odin": {
+        "base": 2574,
+        "job": 2574
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 150.0,
+      "card": {
+        "chancePct": 0.00042,
+        "type": "weapon",
+        "effect": "bonus dmg to demon +12.5% ​"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "axe-wielding goblin",
+    "level": 77.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 757970.0,
+      "atk": 12085.0,
+      "pDef": 869.0,
+      "mDef": 869.0,
+      "hit": 141.0,
+      "dodge": 174.0,
+      "crit": 14.4
+    },
+    "statsDetailed": {
+      "maxHp": 757970.0,
+      "pDefPct": 39.23,
+      "pDefFinal": 0.0,
+      "mDefPct": 39.23,
+      "mDefFinal": 0.0,
+      "antiCritPct": 16.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 16.2,
+      "fleeFinal": 0.0,
+      "pAtk": 12085.0,
+      "mAtk": 8057.0,
+      "pPenPct": 26.63,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.28,
+      "mPenFinal": 0.0,
+      "critPct": 14.4,
+      "critFinal": 0.0,
+      "hitPct": 14.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 292.0,
+        "job": 292.0
+      },
+      "odin": {
+        "base": 1752,
+        "job": 1752
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.00028,
+        "type": "headgear",
+        "effect": "variable cooldown -2.5s"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "ghoul",
+    "level": 77.0,
+    "location": "geffen dungeon 1f",
+    "image": null,
+    "stats": {
+      "hp": 757970.0,
+      "atk": 18352.0,
+      "pDef": 869.0,
+      "mDef": 869.0,
+      "hit": 141.0,
+      "dodge": 174.0,
+      "crit": 14.4
+    },
+    "statsDetailed": {
+      "maxHp": 757970.0,
+      "pDefPct": 39.23,
+      "pDefFinal": 0.0,
+      "mDefPct": 39.23,
+      "mDefFinal": 0.0,
+      "antiCritPct": 16.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 16.2,
+      "fleeFinal": 0.0,
+      "pAtk": 18352.0,
+      "mAtk": 12235.0,
+      "pPenPct": 26.63,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.28,
+      "mPenFinal": 0.0,
+      "critPct": 14.4,
+      "critFinal": 0.0,
+      "hitPct": 14.4,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 292.0,
+        "job": 292.0
+      },
+      "odin": {
+        "base": 1752,
+        "job": 1752
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.00028,
+        "type": "headgear",
+        "effect": "variable channeling time -0.675s"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "giant whisper",
+    "level": 78.0,
+    "location": "munak cave 2f",
+    "image": null,
+    "stats": {
+      "hp": 1200538.0,
+      "atk": 39697.0,
+      "pDef": 717.0,
+      "mDef": 1076.0,
+      "hit": 145.0,
+      "dodge": 179.0,
+      "crit": 14.67
+    },
+    "statsDetailed": {
+      "maxHp": 1200538.0,
+      "pDefPct": 35.42,
+      "pDefFinal": 0.0,
+      "mDefPct": 43.91,
+      "mDefFinal": 0.0,
+      "antiCritPct": 16.45,
+      "antiCritFinal": 0.0,
+      "fleePct": 16.45,
+      "fleeFinal": 0.0,
+      "pAtk": 39697.0,
+      "mAtk": 26465.0,
+      "pPenPct": 21.64,
+      "pPenFinal": 0.0,
+      "mPenPct": 27.03,
+      "mPenFinal": 0.0,
+      "critPct": 14.67,
+      "critFinal": 0.0,
+      "hitPct": 14.67,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 335.0,
+        "job": 559.0
+      },
+      "odin": {
+        "base": 2010,
+        "job": 3354
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demon",
+      "element": "ghost"
+    },
+    "lootPool": {
+      "zeny": 150.0,
+      "card": {
+        "chancePct": 0.00044,
+        "type": "cloak",
+        "effect": "final dmg p.red +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "marionette",
+    "level": 78.0,
+    "location": "geffen dungeon 1f",
+    "image": null,
+    "stats": {
+      "hp": 400179.0,
+      "atk": 7710.0,
+      "pDef": 1076.0,
+      "mDef": 717.0,
+      "hit": 145.0,
+      "dodge": 179.0,
+      "crit": 14.67
+    },
+    "statsDetailed": {
+      "maxHp": 400179.0,
+      "pDefPct": 43.91,
+      "pDefFinal": 0.0,
+      "mDefPct": 35.42,
+      "mDefFinal": 0.0,
+      "antiCritPct": 16.45,
+      "antiCritFinal": 0.0,
+      "fleePct": 16.45,
+      "fleeFinal": 0.0,
+      "pAtk": 7710.0,
+      "mAtk": 5140.0,
+      "pPenPct": 27.03,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.64,
+      "mPenFinal": 0.0,
+      "critPct": 14.67,
+      "critFinal": 0.0,
+      "hitPct": 14.67,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 149.0,
+        "job": 149.0
+      },
+      "odin": {
+        "base": 894,
+        "job": 894
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demon",
+      "element": "ghost"
+    },
+    "lootPool": {
+      "zeny": 50.0,
+      "card": {
+        "chancePct": 0.00014,
+        "type": "cloak",
+        "effect": "max hp +20%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "dagger-wielding goblin",
+    "level": 79.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 844209.0,
+      "atk": 6106.0,
+      "pDef": 1109.0,
+      "mDef": 740.0,
+      "hit": 150.0,
+      "dodge": 185.0,
+      "crit": 15.0
+    },
+    "statsDetailed": {
+      "maxHp": 844209.0,
+      "pDefPct": 44.64,
+      "pDefFinal": 0.0,
+      "mDefPct": 36.0,
+      "mDefFinal": 0.0,
+      "antiCritPct": 16.75,
+      "antiCritFinal": 0.0,
+      "fleePct": 16.75,
+      "fleeFinal": 0.0,
+      "pAtk": 6106.0,
+      "mAtk": 9160.0,
+      "pPenPct": 27.47,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.96,
+      "mPenFinal": 0.0,
+      "critPct": 15.0,
+      "critFinal": 0.0,
+      "hitPct": 15.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 304.0,
+        "job": 304.0
+      },
+      "odin": {
+        "base": 1824,
+        "job": 1824
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.0003,
+        "type": "shoes",
+        "effect": "max hp +20%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "ground petite",
+    "level": 79.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 683157.0,
+      "atk": 8833.0,
+      "pDef": 748.0,
+      "mDef": 748.0,
+      "hit": 150.0,
+      "dodge": 150.0,
+      "crit": 15.0
+    },
+    "statsDetailed": {
+      "maxHp": 683157.0,
+      "pDefPct": 36.2,
+      "pDefFinal": 0.0,
+      "mDefPct": 36.2,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.0,
+      "fleeFinal": 0.0,
+      "pAtk": 8833.0,
+      "mAtk": 13249.0,
+      "pPenPct": 27.47,
+      "pPenFinal": 0.0,
+      "mPenPct": 21.96,
+      "mPenFinal": 0.0,
+      "critPct": 15.0,
+      "critFinal": 0.0,
+      "hitPct": 15.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 304.0,
+        "job": 304.0
+      },
+      "odin": {
+        "base": 1824,
+        "job": 1824
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "dragon",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 100.0,
+      "card": {
+        "chancePct": 0.0003,
+        "type": "weapon",
+        "effect": "bonus dmg ​​damage to formless +12.5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "baphomet jr.",
+    "level": 80.0,
+    "location": "labyrinth forest",
+    "image": null,
+    "stats": {
+      "hp": 444776.0,
+      "atk": 4960.0,
+      "pDef": 952.0,
+      "mDef": 952.0,
+      "hit": 154.0,
+      "dodge": 190.0,
+      "crit": 15.2
+    },
+    "statsDetailed": {
+      "maxHp": 444776.0,
+      "pDefPct": 41.16,
+      "pDefFinal": 0.0,
+      "mDefPct": 41.16,
+      "mDefFinal": 0.0,
+      "antiCritPct": 17.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 17.0,
+      "fleeFinal": 0.0,
+      "pAtk": 4960.0,
+      "mAtk": 3307.0,
+      "pPenPct": 27.87,
+      "pPenFinal": 0.0,
+      "mPenPct": 22.32,
+      "mPenFinal": 0.0,
+      "critPct": 15.2,
+      "critFinal": 0.0,
+      "hitPct": 15.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 78.0,
+        "job": 233.0
+      },
+      "odin": {
+        "base": 468,
+        "job": 1398
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demon",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 58.0,
+      "card": {
+        "chancePct": 0.00016,
+        "type": "cloak",
+        "effect": "final m.dmg red +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "sky petite",
+    "level": 80.0,
+    "location": "mjolnir mountains",
+    "image": null,
+    "stats": {
+      "hp": 1077550.0,
+      "atk": 16192.0,
+      "pDef": 923.0,
+      "mDef": 615.0,
+      "hit": 154.0,
+      "dodge": 154.0,
+      "crit": 15.2
+    },
+    "statsDetailed": {
+      "maxHp": 1077550.0,
+      "pDefPct": 40.51,
+      "pDefFinal": 0.0,
+      "mDefPct": 32.57,
+      "mDefFinal": 0.0,
+      "antiCritPct": 15.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 15.2,
+      "fleeFinal": 0.0,
+      "pAtk": 16192.0,
+      "mAtk": 24288.0,
+      "pPenPct": 27.87,
+      "pPenFinal": 0.0,
+      "mPenPct": 22.32,
+      "mPenFinal": 0.0,
+      "critPct": 15.2,
+      "critFinal": 0.0,
+      "hitPct": 15.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 349.0,
+        "job": 581.0
+      },
+      "odin": {
+        "base": 2094,
+        "job": 3486
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "dragon",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 174.0,
+      "card": {
+        "chancePct": 0.00046,
+        "type": "clothes",
+        "effect": "max hp +20%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "goblin archer",
+    "level": 81.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 533350.0,
+      "atk": 4736.0,
+      "pDef": 782.0,
+      "mDef": 1173.0,
+      "hit": 161.0,
+      "dodge": 195.0,
+      "crit": 15.55
+    },
+    "statsDetailed": {
+      "maxHp": 533350.0,
+      "pDefPct": 37.05,
+      "pDefFinal": 0.0,
+      "mDefPct": 45.96,
+      "mDefFinal": 0.0,
+      "antiCritPct": 17.25,
+      "antiCritFinal": 0.0,
+      "fleePct": 17.25,
+      "fleeFinal": 0.0,
+      "pAtk": 4736.0,
+      "mAtk": 7103.0,
+      "pPenPct": 22.88,
+      "pPenFinal": 0.0,
+      "mPenPct": 28.6,
+      "mPenFinal": 0.0,
+      "critPct": 15.55,
+      "critFinal": 0.0,
+      "hitPct": 15.55,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 119.0,
+        "job": 198.0
+      },
+      "odin": {
+        "base": 714,
+        "job": 1188
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demi-human",
+      "element": "poison"
+    },
+    "lootPool": {
+      "zeny": 58.0,
+      "card": {
+        "chancePct": 0.00016,
+        "type": "weapon",
+        "effect": "bonus dmg to insect +12.5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "kobold archer",
+    "level": 82.0,
+    "location": "kordt forest",
+    "image": null,
+    "stats": {
+      "hp": 562145.0,
+      "atk": 6414.0,
+      "pDef": 504.0,
+      "mDef": 504.0,
+      "hit": 166.0,
+      "dodge": 705.0,
+      "crit": 15.8
+    },
+    "statsDetailed": {
+      "maxHp": 562145.0,
+      "pDefPct": 29.3,
+      "pDefFinal": 0.0,
+      "mDefPct": 29.3,
+      "mDefFinal": 0.0,
+      "antiCritPct": 35.12,
+      "antiCritFinal": 0.0,
+      "fleePct": 35.12,
+      "fleeFinal": 0.0,
+      "pAtk": 6414.0,
+      "mAtk": 4276.0,
+      "pPenPct": 23.24,
+      "pPenFinal": 0.0,
+      "mPenPct": 29.07,
+      "mPenFinal": 0.0,
+      "critPct": 15.8,
+      "critFinal": 0.0,
+      "hitPct": 15.8,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 161.0,
+        "job": 161.0
+      },
+      "odin": {
+        "base": 966,
+        "job": 966
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demi-human",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 58.0,
+      "card": {
+        "chancePct": 0.00016,
+        "type": "weapon",
+        "effect": "bonus dmg to fish +12.5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "deviruchi",
+    "level": 83.0,
+    "location": "geffen dungeon 2f",
+    "image": null,
+    "stats": {
+      "hp": 485907.0,
+      "atk": 4337.0,
+      "pDef": 681.0,
+      "mDef": 1022.0,
+      "hit": 170.0,
+      "dodge": 170.0,
+      "crit": 16.0
+    },
+    "statsDetailed": {
+      "maxHp": 485907.0,
+      "pDefPct": 34.46,
+      "pDefFinal": 0.0,
+      "mDefPct": 42.71,
+      "mDefFinal": 0.0,
+      "antiCritPct": 16.0,
+      "antiCritFinal": 0.0,
+      "fleePct": 16.0,
+      "fleeFinal": 0.0,
+      "pAtk": 4337.0,
+      "mAtk": 6505.0,
+      "pPenPct": 23.64,
+      "pPenFinal": 0.0,
+      "mPenPct": 29.53,
+      "mPenFinal": 0.0,
+      "critPct": 16.0,
+      "critFinal": 0.0,
+      "hitPct": 16.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 246.0,
+        "job": 82.0
+      },
+      "odin": {
+        "base": 1476,
+        "job": 492
+      }
+    },
+    "burn": {
+      "odin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "small",
+      "race": "demon",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 58.0,
+      "card": {
+        "chancePct": 0.00016,
+        "type": "headgear",
+        "effect": "bonus healing receive +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "orc lady",
+    "level": 83.0,
+    "location": "orc village",
+    "image": null,
+    "stats": {
+      "hp": 1183798.0,
+      "atk": 6970.0,
+      "pDef": 830.0,
+      "mDef": 1245.0,
+      "hit": 170.0,
+      "dodge": 207.0,
+      "crit": 16.0
+    },
+    "statsDetailed": {
+      "maxHp": 1183798.0,
+      "pDefPct": 38.25,
+      "pDefFinal": 0.0,
+      "mDefPct": 47.4,
+      "mDefFinal": 0.0,
+      "antiCritPct": 17.85,
+      "antiCritFinal": 0.0,
+      "fleePct": 17.85,
+      "fleeFinal": 0.0,
+      "pAtk": 6970.0,
+      "mAtk": 10455.0,
+      "pPenPct": 23.64,
+      "pPenFinal": 0.0,
+      "mPenPct": 29.53,
+      "mPenFinal": 0.0,
+      "critPct": 16.0,
+      "critFinal": 0.0,
+      "hitPct": 16.0,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 328.0,
+        "job": 328.0
+      },
+      "odin": {
+        "base": 1968,
+        "job": 1968
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 116.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "weapon",
+        "effect": "bonus dmg to demi-human +12.5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "zenorc",
+    "level": 84.0,
+    "location": "orc dungeon",
+    "image": null,
+    "stats": {
+      "hp": 1245265.0,
+      "atk": 12271.0,
+      "pDef": 1068.0,
+      "mDef": 1068.0,
+      "hit": 175.0,
+      "dodge": 214.0,
+      "crit": 16.25
+    },
+    "statsDetailed": {
+      "maxHp": 1245265.0,
+      "pDefPct": 43.73,
+      "pDefFinal": 0.0,
+      "mDefPct": 43.73,
+      "mDefFinal": 0.0,
+      "antiCritPct": 18.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 18.2,
+      "fleeFinal": 0.0,
+      "pAtk": 12271.0,
+      "mAtk": 8181.0,
+      "pPenPct": 30.0,
+      "pPenFinal": 0.0,
+      "mPenPct": 24.0,
+      "mPenFinal": 0.0,
+      "critPct": 16.25,
+      "critFinal": 0.0,
+      "hitPct": 16.25,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 334.0,
+        "job": 334.0
+      },
+      "odin": {
+        "base": 2004,
+        "job": 2004
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "shadow"
+    },
+    "lootPool": {
+      "zeny": 116.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "weapon",
+        "effect": "bonus dmg to undead +12.5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "goblin steamrider",
+    "level": 85.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 1308730.0,
+      "atk": 7307.0,
+      "pDef": 1318.0,
+      "mDef": 878.0,
+      "hit": 180.0,
+      "dodge": 220.0,
+      "crit": 16.5
+    },
+    "statsDetailed": {
+      "maxHp": 1308730.0,
+      "pDefPct": 48.86,
+      "pDefFinal": 0.0,
+      "mDefPct": 39.45,
+      "mDefFinal": 0.0,
+      "antiCritPct": 18.5,
+      "antiCritFinal": 0.0,
+      "fleePct": 18.5,
+      "fleeFinal": 0.0,
+      "pAtk": 7307.0,
+      "mAtk": 10961.0,
+      "pPenPct": 30.4,
+      "pPenFinal": 0.0,
+      "mPenPct": 24.36,
+      "mPenFinal": 0.0,
+      "critPct": 16.5,
+      "critFinal": 0.0,
+      "hitPct": 16.5,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 170.0,
+        "job": 510.0
+      },
+      "odin": {
+        "base": 1020,
+        "job": 3060
+      }
+    },
+    "burn": {
+      "odin": "job"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 97.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "weapon",
+        "effect": "bonus dmg to dragon +12.5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "axe-wielding kobold",
+    "level": 85.0,
+    "location": "kordt forest",
+    "image": null,
+    "stats": {
+      "hp": 1308730.0,
+      "atk": 7452.0,
+      "pDef": 878.0,
+      "mDef": 1318.0,
+      "hit": 180.0,
+      "dodge": 220.0,
+      "crit": 16.5
+    },
+    "statsDetailed": {
+      "maxHp": 1308730.0,
+      "pDefPct": 39.45,
+      "pDefFinal": 0.0,
+      "mDefPct": 48.86,
+      "mDefFinal": 0.0,
+      "antiCritPct": 18.5,
+      "antiCritFinal": 0.0,
+      "fleePct": 18.5,
+      "fleeFinal": 0.0,
+      "pAtk": 7452.0,
+      "mAtk": 11178.0,
+      "pPenPct": 24.36,
+      "pPenFinal": 0.0,
+      "mPenPct": 30.4,
+      "mPenFinal": 0.0,
+      "critPct": 16.5,
+      "critFinal": 0.0,
+      "hitPct": 16.5,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 340.0,
+        "job": 340.0
+      },
+      "odin": {
+        "base": 2040,
+        "job": 2040
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 116.0,
+      "card": {
+        "chancePct": 0.00032,
+        "type": "shoes",
+        "effect": "final m.def +5%\nfinal m.dmg red +5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "high orc",
+    "level": 86.0,
+    "location": "orc village",
+    "image": null,
+    "stats": {
+      "hp": 2064149.0,
+      "atk": 22635.0,
+      "pDef": 1356.0,
+      "mDef": 904.0,
+      "hit": 184.0,
+      "dodge": 226.0,
+      "crit": 16.7
+    },
+    "statsDetailed": {
+      "maxHp": 2064149.0,
+      "pDefPct": 49.62,
+      "pDefFinal": 0.0,
+      "mDefPct": 40.09,
+      "mDefFinal": 0.0,
+      "antiCritPct": 18.8,
+      "antiCritFinal": 0.0,
+      "fleePct": 18.8,
+      "fleeFinal": 0.0,
+      "pAtk": 22635.0,
+      "mAtk": 33952.0,
+      "pPenPct": 30.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 24.76,
+      "mPenFinal": 0.0,
+      "critPct": 16.7,
+      "critFinal": 0.0,
+      "hitPct": 16.7,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 649.0,
+        "job": 389.0
+      },
+      "odin": {
+        "base": 3894,
+        "job": 2334
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demi-human",
+      "element": "fire"
+    },
+    "lootPool": {
+      "zeny": 148.0,
+      "card": {
+        "chancePct": 0.0005,
+        "type": "clothes",
+        "effect": "final m.def +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "nightmare",
+    "level": 87.0,
+    "location": "geffen dungeon 2f",
+    "image": null,
+    "stats": {
+      "hp": 2165667.0,
+      "atk": 42930.0,
+      "pDef": 1392.0,
+      "mDef": 928.0,
+      "hit": 189.0,
+      "dodge": 232.0,
+      "crit": 16.95
+    },
+    "statsDetailed": {
+      "maxHp": 2165667.0,
+      "pDefPct": 50.31,
+      "pDefFinal": 0.0,
+      "mDefPct": 40.62,
+      "mDefFinal": 0.0,
+      "antiCritPct": 19.1,
+      "antiCritFinal": 0.0,
+      "fleePct": 19.1,
+      "fleeFinal": 0.0,
+      "pAtk": 42930.0,
+      "mAtk": 28620.0,
+      "pPenPct": 31.2,
+      "pPenFinal": 0.0,
+      "mPenPct": 25.1,
+      "mPenFinal": 0.0,
+      "critPct": 16.95,
+      "critFinal": 0.0,
+      "hitPct": 16.95,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 660.0,
+        "job": 396.0
+      },
+      "odin": {
+        "base": 3960,
+        "job": 2376
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demon",
+      "element": "ghost"
+    },
+    "lootPool": {
+      "zeny": 150.0,
+      "card": {
+        "chancePct": 0.00052,
+        "type": "headgear",
+        "effect": "hp regen per 5s +5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "orc archer",
+    "level": 88.0,
+    "location": "orc dungeon",
+    "image": null,
+    "stats": {
+      "hp": 1515488.0,
+      "atk": 24074.0,
+      "pDef": 1431.0,
+      "mDef": 954.0,
+      "hit": 194.0,
+      "dodge": 238.0,
+      "crit": 17.2
+    },
+    "statsDetailed": {
+      "maxHp": 1515488.0,
+      "pDefPct": 51.02,
+      "pDefFinal": 0.0,
+      "mDefPct": 41.2,
+      "mDefFinal": 0.0,
+      "antiCritPct": 19.4,
+      "antiCritFinal": 0.0,
+      "fleePct": 19.4,
+      "fleeFinal": 0.0,
+      "pAtk": 24074.0,
+      "mAtk": 16049.0,
+      "pPenPct": 31.6,
+      "pPenFinal": 0.0,
+      "mPenPct": 25.43,
+      "mPenFinal": 0.0,
+      "critPct": 17.2,
+      "critFinal": 0.0,
+      "hitPct": 17.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 358.0,
+        "job": 358.0
+      },
+      "odin": {
+        "base": 2148,
+        "job": 2148
+      }
+    },
+    "burn": {},
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demi-human",
+      "element": "earth"
+    },
+    "lootPool": {
+      "zeny": 102.0,
+      "card": {
+        "chancePct": 0.00034,
+        "type": "accessory",
+        "effect": "magic lifesteal +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "rotar zairo",
+    "level": 88.0,
+    "location": "goblin forest",
+    "image": null,
+    "stats": {
+      "hp": 2273232.0,
+      "atk": 39632.0,
+      "pDef": 596.0,
+      "mDef": 596.0,
+      "hit": 194.0,
+      "dodge": 835.0,
+      "crit": 17.2
+    },
+    "statsDetailed": {
+      "maxHp": 2273232.0,
+      "pDefPct": 32.03,
+      "pDefFinal": 0.0,
+      "mDefPct": 32.03,
+      "mDefFinal": 0.0,
+      "antiCritPct": 38.38,
+      "antiCritFinal": 0.0,
+      "fleePct": 38.38,
+      "fleeFinal": 0.0,
+      "pAtk": 39632.0,
+      "mAtk": 59448.0,
+      "pPenPct": 25.43,
+      "pPenFinal": 0.0,
+      "mPenPct": 31.6,
+      "mPenFinal": 0.0,
+      "critPct": 17.2,
+      "critFinal": 0.0,
+      "hitPct": 17.2,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 671.0,
+        "job": 403.0
+      },
+      "odin": {
+        "base": 4026,
+        "job": 2418
+      }
+    },
+    "burn": {
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "demi-human",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 152.0,
+      "card": {
+        "chancePct": 0.00072,
+        "type": "weapon",
+        "effect": "bonus dmg to brute +12.5%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "wind ghost",
+    "level": 89.0,
+    "location": "geffen dungeon 2f",
+    "image": null,
+    "stats": {
+      "hp": 1590583.0,
+      "atk": 9067.0,
+      "pDef": 980.0,
+      "mDef": 1471.0,
+      "hit": 199.0,
+      "dodge": 245.0,
+      "crit": 17.45
+    },
+    "statsDetailed": {
+      "maxHp": 1590583.0,
+      "pDefPct": 41.78,
+      "pDefFinal": 0.0,
+      "mDefPct": 51.74,
+      "mDefFinal": 0.0,
+      "antiCritPct": 19.75,
+      "antiCritFinal": 0.0,
+      "fleePct": 19.75,
+      "fleeFinal": 0.0,
+      "pAtk": 9067.0,
+      "mAtk": 13601.0,
+      "pPenPct": 25.8,
+      "pPenFinal": 0.0,
+      "mPenPct": 32.09,
+      "mPenFinal": 0.0,
+      "critPct": 17.45,
+      "critFinal": 0.0,
+      "hitPct": 17.45,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 546.0,
+        "job": 182.0
+      },
+      "odin": {
+        "base": 3276,
+        "job": 1092
+      }
+    },
+    "burn": {
+      "odin": "base",
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "medium",
+      "race": "demon",
+      "element": "wind"
+    },
+    "lootPool": {
+      "zeny": 103.0,
+      "card": {
+        "chancePct": 0.00036,
+        "type": "accessory",
+        "effect": "magic reflect +10%"
+      },
+      "items": {}
+    }
+  },
+  {
+    "name": "wraith",
+    "level": 90.0,
+    "location": "geffen dungeon 2f",
+    "image": null,
+    "stats": {
+      "hp": 2536957.0,
+      "atk": 48759.0,
+      "pDef": 1531.0,
+      "mDef": 1021.0,
+      "hit": 205.0,
+      "dodge": 255.0,
+      "crit": 17.75
+    },
+    "statsDetailed": {
+      "maxHp": 2536957.0,
+      "pDefPct": 52.84,
+      "pDefFinal": 0.0,
+      "mDefPct": 42.69,
+      "mDefFinal": 0.0,
+      "antiCritPct": 20.2,
+      "antiCritFinal": 0.0,
+      "fleePct": 20.2,
+      "fleeFinal": 0.0,
+      "pAtk": 48759.0,
+      "mAtk": 32506.0,
+      "pPenPct": 32.54,
+      "pPenFinal": 0.0,
+      "mPenPct": 26.17,
+      "mPenFinal": 0.0,
+      "critPct": 17.75,
+      "critFinal": 0.0,
+      "hitPct": 17.75,
+      "hitFinal": 0.0
+    },
+    "exp": {
+      "solo": {
+        "base": 833.0,
+        "job": 278.0
+      },
+      "odin": {
+        "base": 4998,
+        "job": 1668
+      }
+    },
+    "burn": {
+      "odin": "base",
+      "afkWithoutOdin": "base"
+    },
+    "types": {
+      "atkType": "normal",
+      "size": "large",
+      "race": "undead",
+      "element": "undead"
+    },
+    "lootPool": {
+      "zeny": 157.0,
+      "card": {
+        "type": "accessory",
+        "effect": "crit dmg reduction +10%"
+      },
+      "items": {}
+    }
+  }
+]

@@ -32,7 +32,7 @@ export default function RootLayout({
 				<div className="min-h-screen bg-zinc-50 text-zinc-950 dark:bg-black dark:text-zinc-50 md:h-screen">
 					<div className="md:h-full">
 						<ResponsiveNav />
-						<main className="mx-auto max-w-6xl px-4 py-4 md:h-[calc(100vh-56px)] md:overflow-hidden md:px-6 md:py-6">
+						<main className="w-full px-4 py-4 md:h-[calc(100vh-56px)] md:overflow-hidden md:px-6 md:py-6">
 							<div className="md:h-full md:overflow-hidden">{children}</div>
 						</main>
 						<ScrollToTopButton />
