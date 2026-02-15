@@ -1,6 +1,6 @@
 import "server-only";
 
-import { Pool } from "pg";
+import { Pool, type QueryResultRow } from "pg";
 
 declare global {
 	// eslint-disable-next-line no-var
@@ -41,6 +41,9 @@ if (process.env.NODE_ENV !== "production") {
 	global.__monsterDbPool = pool;
 }
 
-export async function query<T>(text: string, params?: unknown[]) {
+export async function query<T extends QueryResultRow = QueryResultRow>(
+	text: string,
+	params?: unknown[],
+) {
 	return pool.query<T>(text, params);
 }
