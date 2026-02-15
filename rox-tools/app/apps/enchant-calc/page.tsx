@@ -2,7 +2,8 @@
 
 import EnchantTour from "./EnchantTour";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
+import BaseModal from "../../components/BaseModal";
 
 type EnchantType = "wep" | "armor" | "acc";
 
@@ -236,69 +237,28 @@ export default function EnchantCalcPage() {
 		smithingLevel,
 	]);
 
-	useEffect(() => {
-		if (!isTableOpen) return;
-		const onKeyDown = (e: KeyboardEvent) => {
-			if (e.key === "Escape") setIsTableOpen(false);
-		};
-		window.addEventListener("keydown", onKeyDown);
-		return () => window.removeEventListener("keydown", onKeyDown);
-	}, [isTableOpen]);
-
-	useEffect(() => {
-		if (!isTableOpen) return;
-		const prev = document.body.style.overflow;
-		document.body.style.overflow = "hidden";
-		return () => {
-			document.body.style.overflow = prev;
-		};
-	}, [isTableOpen]);
-
 	return (
 		<div className="flex h-full flex-col gap-4 md:overflow-hidden">
 			<EnchantTour key={tourNonce} />
 
-			{isTableOpen && (
-				<div
-					className="fixed inset-0 z-50"
-					role="dialog"
-					aria-modal="true"
-					aria-label="Enchantment table"
-					onClick={() => setIsTableOpen(false)}
-				>
-					<div className="absolute inset-0 bg-black/40" />
-					<div className="absolute inset-0 flex items-center justify-center p-4">
-						<div
-							className="w-full max-w-5xl overflow-hidden rounded-xl border border-black/10 bg-white shadow-xl dark:border-white/15 dark:bg-black"
-							onClick={(e) => e.stopPropagation()}
-						>
-							<div className="flex items-center justify-between gap-3 border-b border-black/10 p-3 dark:border-white/15">
-								<div className="text-sm font-semibold tracking-tight">
-									Enchantment Table for Rox: Global
-								</div>
-								<button
-									type="button"
-									className="rounded-lg border bg-zinc-50 px-3 py-2 text-sm font-medium hover:bg-zinc-100 dark:border-white/15 dark:bg-white/5 dark:hover:bg-white/10"
-									onClick={() => setIsTableOpen(false)}
-								>
-									Close
-								</button>
-							</div>
-
-							<div className="p-3">
-								<Image
-									src="/enchant-table.png"
-									alt="Enchantment table"
-									width={1600}
-									height={1200}
-									sizes="100vw"
-									className="h-auto max-h-[calc(100vh-10rem)] w-full rounded-lg object-contain"
-								/>
-							</div>
-						</div>
-					</div>
-				</div>
-			)}
+			<BaseModal
+				isOpen={isTableOpen}
+				onClose={() => setIsTableOpen(false)}
+				title="Enchantment Table for Rox: Global"
+				ariaLabel="Enchantment table"
+				size="xl"
+				bodyClassName="p-3"
+				contentClassName="overflow-hidden"
+			>
+				<Image
+					src="/enchant-table.png"
+					alt="Enchantment table"
+					width={1600}
+					height={1200}
+					sizes="100vw"
+					className="h-auto max-h-[calc(100vh-10rem)] w-full rounded-lg object-contain"
+				/>
+			</BaseModal>
 
 			<div className="flex items-start justify-between gap-3">
 				<div className="min-w-0">

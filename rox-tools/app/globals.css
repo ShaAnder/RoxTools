@@ -33,3 +33,51 @@ body {
 .no-scrollbar::-webkit-scrollbar {
 	display: none;
 }
+
+@keyframes card-pop {
+	0% {
+		opacity: 0;
+		transform: translateY(8px) scale(0.98);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+
+@keyframes card-pop-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-14px) translateY(4px) scale(0.98);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0) translateY(0) scale(1);
+	}
+}
+
+@keyframes card-pop-right {
+	0% {
+		opacity: 0;
+		transform: translateX(14px) translateY(4px) scale(0.98);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0) translateY(0) scale(1);
+	}
+}
+
+.animate-card-pop {
+	opacity: 0;
+	animation: card-pop 220ms ease-out forwards;
+}
+
+.animate-card-pop-left {
+	opacity: 0;
+	animation: card-pop-left 220ms ease-out forwards;
+}
+
+.animate-card-pop-right {
+	opacity: 0;
+	animation: card-pop-right 220ms ease-out forwards;
+}

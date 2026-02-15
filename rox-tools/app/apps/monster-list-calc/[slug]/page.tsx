@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { getMonsters } from "../lib/monsters";
-import { monsterSlug } from "../monsterSlug";
+import { getMonsterBySlug } from "../lib/monsters";
 
 type PageProps = {
 	params: Promise<{ slug: string }>;
@@ -8,8 +7,7 @@ type PageProps = {
 
 export default async function MonsterDetailPage({ params }: PageProps) {
 	const { slug } = await params;
-	const monsters = await getMonsters();
-	const monster = monsters.find((item) => monsterSlug(item.name) === slug);
+	const monster = await getMonsterBySlug(slug);
 
 	if (!monster) {
 		return (
@@ -43,6 +41,9 @@ export default async function MonsterDetailPage({ params }: PageProps) {
 								alt={monster.name}
 								width={112}
 								height={112}
+								loading="lazy"
+								decoding="async"
+								sizes="112px"
 								style={{ objectFit: "contain" }}
 								unoptimized
 							/>

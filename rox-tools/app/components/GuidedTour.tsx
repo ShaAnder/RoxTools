@@ -12,13 +12,25 @@ export type TourStep = {
 type GuidedTourProps = {
 	storageKey: string;
 	steps: TourStep[];
+	onStepChange?: (step: TourStep, stepIndex: number) => void;
+	onComplete?: (context: { storageKey: string; steps: TourStep[] }) => void;
+	waitForTarget?: boolean;
+	targetPollIntervalMs?: number;
 };
 
 function clamp(n: number, min: number, max: number): number {
 	return Math.min(max, Math.max(min, n));
 }
 
-export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
+export default function GuidedTour({
+	storageKey,
+	steps,
+	onStepChange,
+	onComplete,
+	waitForTarget = true,
+	targetPollIntervalMs = 200,
+}: GuidedTourProps) {
+	// Open by default until the user has completed or skipped this specific tour key.
 	const [isOpen, setIsOpen] = useState(() => {
 		if (typeof window === "undefined") return false;
 		try {
@@ -29,6 +41,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 	});
 	const [stepIndex, setStepIndex] = useState(0);
 	const [rect, setRect] = useState<DOMRect | null>(null);
+	// Mobile uses a centered card instead of target-anchored tooltip/highlight.
 	const [isMobile, setIsMobile] = useState(() => {
 		if (typeof window === "undefined") return false;
 		return window.matchMedia("(max-width: 767px)").matches;
@@ -40,6 +53,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 	const target = step?.target ?? null;
 
 	useEffect(() => {
+		// Track viewport mode changes so tour layout can switch between desktop/mobile variants.
 		if (typeof window === "undefined") return;
 		const mq = window.matchMedia("(max-width: 767px)");
 		const update = () => setIsMobile(mq.matches);
@@ -49,6 +63,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 	}, []);
 
 	useEffect(() => {
+		// Continuously refresh target bounds while open so highlights stay aligned.
 		if (!isOpen) return;
 		if (!target) return;
 		if (isMobile) return;
@@ -65,14 +80,24 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 		updateRect();
 		window.addEventListener("resize", updateRect);
 		window.addEventListener("scroll", updateRect, { passive: true });
+		const interval = window.setInterval(updateRect, targetPollIntervalMs);
 
 		return () => {
 			window.removeEventListener("resize", updateRect);
 			window.removeEventListener("scroll", updateRect);
+			window.clearInterval(interval);
 		};
-	}, [isMobile, isOpen, target]);
+	}, [isMobile, isOpen, target, targetPollIntervalMs]);
 
 	useEffect(() => {
+		// Let feature-specific tours react to step transitions (open modals, sync state, etc.).
+		if (!isOpen) return;
+		if (!step) return;
+		onStepChange?.(step, safeIndex);
+	}, [isOpen, onStepChange, safeIndex, step]);
+
+	useEffect(() => {
+		// Standard keyboard close behavior for accessibility.
 		if (!isOpen) return;
 		const onKeyDown = (e: KeyboardEvent) => {
 			if (e.key === "Escape") setIsOpen(false);
@@ -82,6 +107,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 	}, [isOpen]);
 
 	useEffect(() => {
+		// Lock page scrolling while the guided overlay is active.
 		if (!isOpen) return;
 		const prev = document.body.style.overflow;
 		document.body.style.overflow = "hidden";
@@ -91,6 +117,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 	}, [isOpen]);
 
 	const closeAndRemember = () => {
+		// Persist completion/skip state to avoid re-showing this tour automatically.
 		try {
 			localStorage.setItem(storageKey, "1");
 		} catch {
@@ -99,7 +126,21 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 		setIsOpen(false);
 	};
 
+	const completeTour = () => {
+		// Fire completion hooks/events before closing so listeners can react immediately.
+		onComplete?.({ storageKey, steps });
+		if (typeof window !== "undefined") {
+			window.dispatchEvent(
+				new CustomEvent("guided-tour-completed", {
+					detail: { storageKey },
+				}),
+			);
+		}
+		closeAndRemember();
+	};
+
 	if (!isOpen || !step) return null;
+	if (waitForTarget && !isMobile && target && !rect) return null;
 
 	const canGoBack = safeIndex > 0;
 	const isLast = safeIndex === steps.length - 1;
@@ -118,8 +159,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 
 	const tooltip = (() => {
 		if (isMobile) return null;
-		const fallback = { left: 16, top: 16 };
-		if (!rect) return fallback;
+		if (!rect) return null;
 		const preferredLeft = rect.left;
 
 		const estimatedTooltipHeight = 220;
@@ -136,7 +176,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 	})();
 
 	return (
-		<div className="fixed inset-0 z-50">
+		<div className="fixed inset-0 z-70">
 			<div className="absolute inset-0 bg-black/40" />
 
 			{spotlight && (
@@ -181,7 +221,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 								type="button"
 								className="rounded-lg border border-black/10 bg-zinc-50 px-3 py-2 text-sm font-medium hover:bg-zinc-100 dark:border-white/15 dark:bg-white/5 dark:hover:bg-white/10"
 								onClick={() => {
-									if (isLast) closeAndRemember();
+									if (isLast) completeTour();
 									else setStepIndex((i) => Math.min(steps.length - 1, i + 1));
 								}}
 							>
@@ -228,7 +268,7 @@ export default function GuidedTour({ storageKey, steps }: GuidedTourProps) {
 								type="button"
 								className="rounded-lg border border-black/10 bg-zinc-50 px-3 py-2 text-sm font-medium hover:bg-zinc-100 dark:border-white/15 dark:bg-white/5 dark:hover:bg-white/10"
 								onClick={() => {
-									if (isLast) closeAndRemember();
+									if (isLast) completeTour();
 									else setStepIndex((i) => Math.min(steps.length - 1, i + 1));
 								}}
 							>

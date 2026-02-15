@@ -8,7 +8,9 @@ export default function MonsterCalculator() {
 			className="rounded-xl border border-black/10 bg-white p-4 shadow-sm dark:border-white/15 dark:bg-black"
 			data-tour="monster-calculator"
 		>
-			<h5 className="text-xl font-semibold tracking-tight">EXP Calculator</h5>
+			<h5 className="text-xl font-semibold tracking-tight">
+				Monsterpedia & EXP Calculator
+			</h5>
 			<div className="mt-4 grid gap-3 lg:grid-cols-[repeat(4,minmax(0,1fr))_auto] lg:items-end">
 				<div>
 					{/* Character level uses a looped list to avoid 160 hard-coded options. */}

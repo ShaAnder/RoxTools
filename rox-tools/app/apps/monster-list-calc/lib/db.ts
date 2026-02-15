@@ -2,8 +2,8 @@ import "server-only";
 
 import { Pool, type QueryResultRow } from "pg";
 
+// Reuse a single pool during local development hot reloads.
 declare global {
-	// eslint-disable-next-line no-var
 	var __monsterDbPool: Pool | undefined;
 }
 
@@ -14,6 +14,7 @@ if (!connectionString) {
 	throw new Error("Missing POSTGRES_URL or DATABASE_URL");
 }
 
+// Normalize legacy SSL query params so newer pg versions avoid alias warnings.
 function normalizeSslMode(value: string): string {
 	const parsed = new URL(value);
 	const sslMode = parsed.searchParams.get("sslmode")?.toLowerCase();
